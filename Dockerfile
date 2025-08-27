@@ -43,80 +43,81 @@ ENV CONDA_DEFAULT_ENV=svgrender
 ENV CONDA_PREFIX=/opt/conda/envs/svgrender
 ENV PATH=${CONDA_PREFIX}/bin:${PATH}
 
-# Activate environment and install PyTorch and related libraries
-RUN /opt/conda/envs/svgrender/bin/pip install --upgrade pip setuptools wheel && \
-    conda install -n svgrender pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch --yes && \
-    conda clean -afy
+# Upgrade pip first
+RUN /opt/conda/envs/svgrender/bin/pip install --upgrade pip setuptools wheel
 
-# Install xformers
-RUN conda install -n svgrender xformers -c xformers --yes && \
-    conda clean -afy
+# Install PyTorch 1.12.1 with CUDA 11.3 via pip (more reliable than conda for specific versions)
+RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
+    torch==1.12.1+cu113 \
+    torchvision==0.13.1+cu113 \
+    torchaudio==0.12.1 \
+    --extra-index-url https://download.pytorch.org/whl/cu113
 
-# Install build tools through conda
+# Install xformers compatible with PyTorch 1.12.1
+RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir xformers==0.0.13
+
+# Install conda build tools
 RUN conda install -n svgrender -y -c anaconda cmake && \
     conda install -n svgrender -y -c conda-forge ffmpeg && \
     conda clean -afy
 
-# Install Python dependencies - core libraries in smaller chunks
-# Using the conda environment's pip directly
-RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir numpy scipy
-
-# Install core ML/compute libraries
+# Install core dependencies first
 RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
-    scikit-fmm \
-    scikit-image \
-    scikit-learn \
-    numba \
-    triton
+    numpy scipy scikit-fmm scikit-image scikit-learn && \
+    rm -rf ~/.cache/pip
+
+# Install compute libraries
+RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
+    numba triton==2.0.0 && \
+    rm -rf ~/.cache/pip
 
 # Install config and utility libraries
 RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
-    hydra-core \
-    omegaconf \
-    easydict \
-    ftfy \
-    regex \
-    tqdm
+    hydra-core omegaconf easydict \
+    ftfy regex tqdm && \
+    rm -rf ~/.cache/pip
 
 # Install graphics and SVG libraries
 RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
-    freetype-py \
-    shapely \
-    svgutils \
-    svgwrite \
-    svgpathtools \
-    cssutils \
-    cairosvg \
-    opencv-python
+    freetype-py shapely svgutils svgwrite \
+    svgpathtools cssutils cairosvg \
+    opencv-python && \
+    rm -rf ~/.cache/pip
 
 # Install visualization and logging
 RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
-    matplotlib \
-    visdom \
-    wandb \
-    BeautifulSoup4
+    matplotlib visdom wandb BeautifulSoup4 && \
+    rm -rf ~/.cache/pip
 
-# Install deep learning libraries
+# Install deep learning libraries (pinning versions to avoid conflicts)
 RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
-    einops \
-    timm \
+    einops==0.6.1 \
+    timm==0.9.2 \
     fairscale==0.4.13 \
-    pytorch_lightning==2.1.0 \
-    webdataset \
-    torch-tools
+    pytorch-lightning==2.1.0 \
+    torchmetrics==0.11.4 \
+    webdataset && \
+    rm -rf ~/.cache/pip
+
+# Install torch-tools separately
+RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir torch-tools && \
+    rm -rf ~/.cache/pip
 
 # Install transformers ecosystem
 RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir \
-    accelerate \
-    transformers \
+    transformers==4.30.2 \
+    accelerate==0.20.3 \
     safetensors \
-    datasets
-
-# Install CLIP
-RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir git+https://github.com/openai/CLIP.git
+    datasets==2.14.0 && \
+    rm -rf ~/.cache/pip
 
 # Install diffusers
-RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir diffusers==0.20.2
+RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir diffusers==0.20.2 && \
+    rm -rf ~/.cache/pip
+
+# Install CLIP
+RUN /opt/conda/envs/svgrender/bin/pip install --no-cache-dir git+https://github.com/openai/CLIP.git && \
+    rm -rf ~/.cache/pip
 
 # Clone and install DiffVG
 WORKDIR /tmp
@@ -125,7 +126,8 @@ RUN git clone https://github.com/BachiLi/diffvg.git && \
     git submodule update --init --recursive && \
     /opt/conda/envs/svgrender/bin/python setup.py install && \
     cd .. && \
-    rm -rf diffvg
+    rm -rf diffvg && \
+    rm -rf ~/.cache/pip
 
 # Set working directory
 WORKDIR /workspace
