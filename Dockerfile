@@ -28,8 +28,10 @@ RUN wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.s
 
 ENV PATH=/opt/conda/bin:$PATH
 
-# Accept conda Terms of Service  
+# Accept conda Terms of Service for Anaconda channels
 RUN conda config --set always_yes yes && \
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main && \
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r && \
     conda config --set solver libmamba || true
 
 # Create conda environment
@@ -118,7 +120,7 @@ RUN mkdir -p logs checkpoint outputs
 ENV CONDA_DEFAULT_ENV=svgrender
 ENV CONDA_PREFIX=/opt/conda/envs/svgrender
 ENV PATH=${CONDA_PREFIX}/bin:${PATH}
-ENV PYTHONPATH=/workspace:$PYTHONPATH
+ENV PYTHONPATH=/workspace
 
 # Create entrypoint script
 RUN echo '#!/bin/bash\n\
