@@ -54,43 +54,63 @@ RUN conda install -y -c anaconda cmake && \
     conda install -y -c conda-forge ffmpeg && \
     conda clean -afy
 
-# Install Python dependencies - core libraries
+# Install Python dependencies - core libraries in smaller chunks
+# First, upgrade pip and install core build dependencies
+RUN pip install --upgrade pip setuptools wheel
+
+# Install numpy and scipy first as many packages depend on them
+RUN pip install --no-cache-dir numpy scipy
+
+# Install core ML/compute libraries
+RUN pip install --no-cache-dir \
+    scikit-fmm \
+    scikit-image \
+    scikit-learn \
+    numba \
+    triton
+
+# Install config and utility libraries
 RUN pip install --no-cache-dir \
     hydra-core \
     omegaconf \
+    easydict \
+    ftfy \
+    regex \
+    tqdm
+
+# Install graphics and SVG libraries
+RUN pip install --no-cache-dir \
     freetype-py \
     shapely \
     svgutils \
-    cairosvg \
-    opencv-python \
-    scikit-image \
-    matplotlib \
-    visdom \
-    wandb \
-    BeautifulSoup4 \
-    triton \
-    numba \
-    numpy \
-    scipy \
-    scikit-fmm \
-    einops \
-    timm \
-    fairscale==0.4.13 \
-    accelerate \
-    transformers \
-    safetensors \
-    datasets \
-    easydict \
-    scikit-learn \
-    pytorch_lightning==2.1.0 \
-    webdataset \
-    ftfy \
-    regex \
-    tqdm \
     svgwrite \
     svgpathtools \
     cssutils \
+    cairosvg \
+    opencv-python
+
+# Install visualization and logging
+RUN pip install --no-cache-dir \
+    matplotlib \
+    visdom \
+    wandb \
+    BeautifulSoup4
+
+# Install deep learning libraries
+RUN pip install --no-cache-dir \
+    einops \
+    timm \
+    fairscale==0.4.13 \
+    pytorch_lightning==2.1.0 \
+    webdataset \
     torch-tools
+
+# Install transformers ecosystem
+RUN pip install --no-cache-dir \
+    accelerate \
+    transformers \
+    safetensors \
+    datasets
 
 # Install CLIP
 RUN pip install --no-cache-dir git+https://github.com/openai/CLIP.git
