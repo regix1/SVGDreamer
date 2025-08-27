@@ -22,8 +22,11 @@ RUN wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.s
 
 ENV PATH=/opt/conda/bin:$PATH
 
-# Create conda environment with Python 3.10
-RUN conda create -n svgdreamer python=3.10 -y && \
+# Accept conda Terms of Service
+RUN conda tos accept
+
+# Create conda environment with Python 3.10 using only conda-forge
+RUN conda create -n svgdreamer -c conda-forge python=3.10 -y && \
     conda install -n svgdreamer -c conda-forge \
         numpy=1.24.3 \
         scipy \
@@ -134,7 +137,7 @@ RUN if [ ! -d "ImageReward" ]; then \
 RUN mkdir -p logs checkpoint outputs
 
 # Set Python path
-ENV PYTHONPATH=/workspace:${PYTHONPATH}
+ENV PYTHONPATH=/workspace:$PYTHONPATH
 
 # Verify installation
 RUN python -c "import torch; print(f'PyTorch: {torch.__version__}')" && \
