@@ -8,10 +8,16 @@ ENV LD_LIBRARY_PATH=${CUDA_HOME}/lib64:${LD_LIBRARY_PATH}
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
-    wget git cmake ffmpeg build-essential \
-    libjpeg-dev libpng-dev libtiff-dev \
-    libcairo2-dev libgl1-mesa-dev \
-    curl unzip python3-dev \
+    wget \
+    git \
+    cmake \
+    ffmpeg \
+    build-essential \
+    libjpeg-dev \
+    libpng-dev \
+    libtiff-dev \
+    libcairo2-dev \
+    curl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -22,132 +28,102 @@ RUN wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.s
 
 ENV PATH=/opt/conda/bin:$PATH
 
-# Accept conda Terms of Service
-RUN conda tos accept
+# Accept conda Terms of Service  
+RUN conda config --set always_yes yes && \
+    conda config --set solver libmamba || true
 
-# Create conda environment with Python 3.10 using only conda-forge
-RUN conda create -n svgdreamer -c conda-forge python=3.10 -y && \
-    conda install -n svgdreamer -c conda-forge \
-        numpy=1.24.3 \
-        scipy \
-        scikit-image \
-        pillow \
-        matplotlib \
-        pybind11 \
-        libstdcxx-ng -y && \
+# Create conda environment
+RUN conda create --name svgrender python=3.10 --yes && \
     conda clean -afy
 
-# Set conda environment
-SHELL ["conda", "run", "-n", "svgdreamer", "/bin/bash", "-c"]
-ENV CONDA_DEFAULT_ENV=svgdreamer
-ENV CONDA_PREFIX=/opt/conda/envs/svgdreamer
-ENV PATH=${CONDA_PREFIX}/bin:${PATH}
-ENV CONDA_PYTHON_EXE=${CONDA_PREFIX}/bin/python
+# Activate environment for all subsequent commands
+SHELL ["conda", "run", "-n", "svgrender", "/bin/bash", "-c"]
 
-# Install PyTorch with CUDA 11.3
+# Install PyTorch and related libraries
+RUN conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch --yes && \
+    conda clean -afy
+
+# Install xformers
+RUN conda install xformers -c xformers --yes && \
+    conda clean -afy
+
+# Install build tools through conda
+RUN conda install -y -c anaconda cmake && \
+    conda install -y -c conda-forge ffmpeg && \
+    conda clean -afy
+
+# Install Python dependencies - core libraries
 RUN pip install --no-cache-dir \
-    torch==1.12.1+cu113 \
-    torchvision==0.13.1+cu113 \
-    torchaudio==0.12.1+cu113 \
-    --extra-index-url https://download.pytorch.org/whl/cu113
-
-# Install xformers for PyTorch 1.12.1
-RUN pip install --no-cache-dir xformers==0.0.13
-
-# Install core dependencies
-RUN pip install --no-cache-dir \
-    hydra-core==1.3.2 \
-    omegaconf==2.3.0 \
-    einops==0.6.1 \
-    timm==0.9.2 \
-    fairscale==0.4.13 \
-    pytorch-lightning==2.1.0 \
-    torchmetrics==0.11.4 \
-    scikit-fmm \
-    scikit-learn \
-    numba \
-    triton==2.0.0
-
-# Install SVG and graphics libraries
-RUN pip install --no-cache-dir \
-    svgwrite \
-    svgpathtools \
-    svgutils \
-    cairosvg \
-    cssutils \
+    hydra-core \
+    omegaconf \
     freetype-py \
     shapely \
-    opencv-python==4.8.1.78
-
-# Install ML packages with version compatibility
-RUN pip install --no-cache-dir \
-    diffusers==0.20.2 \
-    transformers==4.30.2 \
-    accelerate==0.20.3 \
+    svgutils \
+    cairosvg \
+    opencv-python \
+    scikit-image \
+    matplotlib \
+    visdom \
+    wandb \
+    BeautifulSoup4 \
+    triton \
+    numba \
+    numpy \
+    scipy \
+    scikit-fmm \
+    einops \
+    timm \
+    fairscale==0.4.13 \
+    accelerate \
+    transformers \
     safetensors \
-    tokenizers==0.13.3 \
-    huggingface-hub==0.16.4
-
-# Install datasets and dependencies
-RUN pip install --no-cache-dir \
-    datasets==2.14.0 \
-    pyarrow \
-    xxhash \
-    dill \
-    multiprocess \
-    fsspec==2023.6.0 \
-    aiohttp \
-    responses \
-    psutil
-
-# Install additional utilities
-RUN pip install --no-cache-dir \
+    datasets \
+    easydict \
+    scikit-learn \
+    pytorch_lightning==2.1.0 \
+    webdataset \
     ftfy \
     regex \
     tqdm \
-    wandb \
-    beautifulsoup4 \
-    webdataset \
-    torch-tools \
-    visdom \
-    easydict
+    svgwrite \
+    svgpathtools \
+    cssutils \
+    torch-tools
 
 # Install CLIP
-RUN pip install --no-cache-dir git+https://github.com/openai/CLIP.git@main
+RUN pip install --no-cache-dir git+https://github.com/openai/CLIP.git
+
+# Install diffusers
+RUN pip install --no-cache-dir diffusers==0.20.2
 
 # Clone and install DiffVG
-WORKDIR /opt
+WORKDIR /tmp
 RUN git clone https://github.com/BachiLi/diffvg.git && \
     cd diffvg && \
     git submodule update --init --recursive && \
     python setup.py install && \
-    cd .. && rm -rf diffvg
+    cd .. && \
+    rm -rf diffvg
 
-# Clone SVGDreamer repository
+# Set working directory
 WORKDIR /workspace
-RUN git clone https://github.com/regix1/SVGDreamer.git . && \
-    rm -rf .git
 
-# Clone ImageReward if needed
-RUN if [ ! -d "ImageReward" ]; then \
-        git clone https://github.com/THUDM/ImageReward.git; \
-    fi
+# Copy the SVGDreamer code from your repository
+COPY . /workspace/
 
 # Create necessary directories
 RUN mkdir -p logs checkpoint outputs
 
-# Set Python path
+# Set environment variables for runtime
+ENV CONDA_DEFAULT_ENV=svgrender
+ENV CONDA_PREFIX=/opt/conda/envs/svgrender
+ENV PATH=${CONDA_PREFIX}/bin:${PATH}
 ENV PYTHONPATH=/workspace:$PYTHONPATH
 
-# Verify installation
-RUN python -c "import torch; print(f'PyTorch: {torch.__version__}')" && \
-    python -c "import numpy; print(f'NumPy: {numpy.__version__}')" && \
-    python -c "import pydiffvg; print('DiffVG: OK')"
-
-# Create entrypoint
+# Create entrypoint script
 RUN echo '#!/bin/bash\n\
 source /opt/conda/etc/profile.d/conda.sh\n\
-conda activate svgdreamer\n\
+conda activate svgrender\n\
 exec "$@"' > /entrypoint.sh && \
     chmod +x /entrypoint.sh
 
