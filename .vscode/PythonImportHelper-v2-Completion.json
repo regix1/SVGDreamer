@@ -1,0 +1,3102 @@
+[
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "download_cached_file",
+        "importPath": "timm.models.hub",
+        "description": "timm.models.hub",
+        "isExtraImport": true,
+        "detail": "timm.models.hub",
+        "documentation": {}
+    },
+    {
+        "label": "transformers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "transformers",
+        "description": "transformers",
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "CLIPTextModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "CLIPTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AnyStr",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AnyStr",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AnyStr",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AnyStr",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BinaryIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AnyStr",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BinaryIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "torch.utils.checkpoint",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.utils.checkpoint",
+        "description": "torch.utils.checkpoint",
+        "detail": "torch.utils.checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "CrossEntropyLoss",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "ACT2FN",
+        "importPath": "transformers.activations",
+        "description": "transformers.activations",
+        "isExtraImport": true,
+        "detail": "transformers.activations",
+        "documentation": {}
+    },
+    {
+        "label": "ModelOutput",
+        "importPath": "transformers.file_utils",
+        "description": "transformers.file_utils",
+        "isExtraImport": true,
+        "detail": "transformers.file_utils",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModelOutputWithPastAndCrossAttentions",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModelOutputWithPoolingAndCrossAttentions",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "CausalLMOutputWithCrossAttentions",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "MaskedLMOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "MultipleChoiceModelOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "NextSentencePredictorOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "QuestionAnsweringModelOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceClassifierOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "TokenClassifierOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "PreTrainedModel",
+        "importPath": "transformers.modeling_utils",
+        "description": "transformers.modeling_utils",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "apply_chunking_to_forward",
+        "importPath": "transformers.modeling_utils",
+        "description": "transformers.modeling_utils",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_pruneable_heads_and_indices",
+        "importPath": "transformers.modeling_utils",
+        "description": "transformers.modeling_utils",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "prune_linear_layer",
+        "importPath": "transformers.modeling_utils",
+        "description": "transformers.modeling_utils",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "transformers.utils",
+        "description": "transformers.utils",
+        "isExtraImport": true,
+        "detail": "transformers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "BertConfig",
+        "importPath": "transformers.models.bert.configuration_bert",
+        "description": "transformers.models.bert.configuration_bert",
+        "isExtraImport": true,
+        "detail": "transformers.models.bert.configuration_bert",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "partial",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "partial",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "partial",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "_cfg",
+        "importPath": "timm.models.vision_transformer",
+        "description": "timm.models.vision_transformer",
+        "isExtraImport": true,
+        "detail": "timm.models.vision_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "PatchEmbed",
+        "importPath": "timm.models.vision_transformer",
+        "description": "timm.models.vision_transformer",
+        "isExtraImport": true,
+        "detail": "timm.models.vision_transformer",
+        "documentation": {}
+    },
+    {
+        "label": "register_model",
+        "importPath": "timm.models.registry",
+        "description": "timm.models.registry",
+        "isExtraImport": true,
+        "detail": "timm.models.registry",
+        "documentation": {}
+    },
+    {
+        "label": "trunc_normal_",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "DropPath",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "named_apply",
+        "importPath": "timm.models.helpers",
+        "description": "timm.models.helpers",
+        "isExtraImport": true,
+        "detail": "timm.models.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "adapt_input_conv",
+        "importPath": "timm.models.helpers",
+        "description": "timm.models.helpers",
+        "isExtraImport": true,
+        "detail": "timm.models.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "checkpoint_wrapper",
+        "importPath": "fairscale.nn.checkpoint.checkpoint_activations",
+        "description": "fairscale.nn.checkpoint.checkpoint_activations",
+        "isExtraImport": true,
+        "detail": "fairscale.nn.checkpoint.checkpoint_activations",
+        "documentation": {}
+    },
+    {
+        "label": "PIL",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PIL",
+        "description": "PIL",
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "clip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "clip",
+        "description": "clip",
+        "detail": "clip",
+        "documentation": {}
+    },
+    {
+        "label": "BLIP_Pretrain",
+        "importPath": "ImageReward.models.BLIP.blip_pretrain",
+        "description": "ImageReward.models.BLIP.blip_pretrain",
+        "isExtraImport": true,
+        "detail": "ImageReward.models.BLIP.blip_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "Compose",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Resize",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "CenterCrop",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "ToTensor",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Normalize",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Compose",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Resize",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "CenterCrop",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "ToTensor",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Normalize",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Compose",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Resize",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "CenterCrop",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Normalize",
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "isExtraImport": true,
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "accelerate",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "accelerate",
+        "description": "accelerate",
+        "detail": "accelerate",
+        "documentation": {}
+    },
+    {
+        "label": "Accelerator",
+        "importPath": "accelerate",
+        "description": "accelerate",
+        "isExtraImport": true,
+        "detail": "accelerate",
+        "documentation": {}
+    },
+    {
+        "label": "Accelerator",
+        "importPath": "accelerate",
+        "description": "accelerate",
+        "isExtraImport": true,
+        "detail": "accelerate",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "get_logger",
+        "importPath": "accelerate.logging",
+        "description": "accelerate.logging",
+        "isExtraImport": true,
+        "detail": "accelerate.logging",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectConfiguration",
+        "importPath": "accelerate.utils",
+        "description": "accelerate.utils",
+        "isExtraImport": true,
+        "detail": "accelerate.utils",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "importPath": "accelerate.utils",
+        "description": "accelerate.utils",
+        "isExtraImport": true,
+        "detail": "accelerate.utils",
+        "documentation": {}
+    },
+    {
+        "label": "set_seed",
+        "importPath": "accelerate.utils",
+        "description": "accelerate.utils",
+        "isExtraImport": true,
+        "detail": "accelerate.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "create_repo",
+        "importPath": "huggingface_hub",
+        "description": "huggingface_hub",
+        "isExtraImport": true,
+        "detail": "huggingface_hub",
+        "documentation": {}
+    },
+    {
+        "label": "upload_folder",
+        "importPath": "huggingface_hub",
+        "description": "huggingface_hub",
+        "isExtraImport": true,
+        "detail": "huggingface_hub",
+        "documentation": {}
+    },
+    {
+        "label": "hf_hub_download",
+        "importPath": "huggingface_hub",
+        "description": "huggingface_hub",
+        "isExtraImport": true,
+        "detail": "huggingface_hub",
+        "documentation": {}
+    },
+    {
+        "label": "version",
+        "importPath": "packaging",
+        "description": "packaging",
+        "isExtraImport": true,
+        "detail": "packaging",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
+        "documentation": {}
+    },
+    {
+        "label": "ImageReward",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ImageReward",
+        "description": "ImageReward",
+        "detail": "ImageReward",
+        "documentation": {}
+    },
+    {
+        "label": "diffusers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoencoderKL",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "DDPMScheduler",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "StableDiffusionPipeline",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "UNet2DConditionModel",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "StableDiffusionPipeline",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "DDIMScheduler",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "StableDiffusionPipeline",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "UNet2DConditionModel",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "DDIMScheduler",
+        "importPath": "diffusers",
+        "description": "diffusers",
+        "isExtraImport": true,
+        "detail": "diffusers",
+        "documentation": {}
+    },
+    {
+        "label": "get_scheduler",
+        "importPath": "diffusers.optimization",
+        "description": "diffusers.optimization",
+        "isExtraImport": true,
+        "detail": "diffusers.optimization",
+        "documentation": {}
+    },
+    {
+        "label": "EMAModel",
+        "importPath": "diffusers.training_utils",
+        "description": "diffusers.training_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.training_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_min_version",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "deprecate",
+        "importPath": "diffusers.utils",
+        "description": "diffusers.utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_xformers_available",
+        "importPath": "diffusers.utils.import_utils",
+        "description": "diffusers.utils.import_utils",
+        "isExtraImport": true,
+        "detail": "diffusers.utils.import_utils",
+        "documentation": {}
+    },
+    {
+        "label": "urllib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib",
+        "description": "urllib",
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "trange",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "pydiffvg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydiffvg",
+        "description": "pydiffvg",
+        "detail": "pydiffvg",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "errno",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "errno",
+        "description": "errno",
+        "detail": "errno",
+        "documentation": {}
+    },
+    {
+        "label": "hydra",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hydra",
+        "description": "hydra",
+        "detail": "hydra",
+        "documentation": {}
+    },
+    {
+        "label": "omegaconf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "OmegaConf",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "DictConfig",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "open_dict",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "DictConfig",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "DictConfig",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "DictConfig",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "DictConfig",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "OmegaConf",
+        "importPath": "omegaconf",
+        "description": "omegaconf",
+        "isExtraImport": true,
+        "detail": "omegaconf",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "shapely.geometry.polygon",
+        "description": "shapely.geometry.polygon",
+        "isExtraImport": true,
+        "detail": "shapely.geometry.polygon",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "shapely.geometry.polygon",
+        "description": "shapely.geometry.polygon",
+        "isExtraImport": true,
+        "detail": "shapely.geometry.polygon",
+        "documentation": {}
+    },
+    {
+        "label": "LambdaLR",
+        "importPath": "torch.optim.lr_scheduler",
+        "description": "torch.optim.lr_scheduler",
+        "isExtraImport": true,
+        "detail": "torch.optim.lr_scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "LambdaLR",
+        "importPath": "torch.optim.lr_scheduler",
+        "description": "torch.optim.lr_scheduler",
+        "isExtraImport": true,
+        "detail": "torch.optim.lr_scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "LambdaLR",
+        "importPath": "torch.optim.lr_scheduler",
+        "description": "torch.optim.lr_scheduler",
+        "isExtraImport": true,
+        "detail": "torch.optim.lr_scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "SparseCoordInit",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "RandomCoordInit",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "NaiveCoordInit",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "get_sdf",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "CompPainter",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "CompPainterOptimizer",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "xing_loss_fn",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "Painter",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "PainterOptimizer",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "svgdreamer.painter",
+        "description": "svgdreamer.painter",
+        "isExtraImport": true,
+        "detail": "svgdreamer.painter",
+        "documentation": {}
+    },
+    {
+        "label": "get_optimizer",
+        "importPath": "svgdreamer.libs",
+        "description": "svgdreamer.libs",
+        "isExtraImport": true,
+        "detail": "svgdreamer.libs",
+        "documentation": {}
+    },
+    {
+        "label": "get_optimizer",
+        "importPath": "svgdreamer.libs",
+        "description": "svgdreamer.libs",
+        "isExtraImport": true,
+        "detail": "svgdreamer.libs",
+        "documentation": {}
+    },
+    {
+        "label": "ModelState",
+        "importPath": "svgdreamer.libs",
+        "description": "svgdreamer.libs",
+        "isExtraImport": true,
+        "detail": "svgdreamer.libs",
+        "documentation": {}
+    },
+    {
+        "label": "get_optimizer",
+        "importPath": "svgdreamer.libs",
+        "description": "svgdreamer.libs",
+        "isExtraImport": true,
+        "detail": "svgdreamer.libs",
+        "documentation": {}
+    },
+    {
+        "label": "rescale_noise_cfg",
+        "importPath": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "description": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "isExtraImport": true,
+        "detail": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "StableDiffusionPipelineOutput",
+        "importPath": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "description": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "isExtraImport": true,
+        "detail": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "rescale_noise_cfg",
+        "importPath": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "description": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "isExtraImport": true,
+        "detail": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "description": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "isExtraImport": true,
+        "detail": "diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "init_StableDiffusion_pipeline",
+        "importPath": "svgdreamer.diffusers_warp",
+        "description": "svgdreamer.diffusers_warp",
+        "isExtraImport": true,
+        "detail": "svgdreamer.diffusers_warp",
+        "documentation": {}
+    },
+    {
+        "label": "init_StableDiffusion_pipeline",
+        "importPath": "svgdreamer.diffusers_warp",
+        "description": "svgdreamer.diffusers_warp",
+        "isExtraImport": true,
+        "detail": "svgdreamer.diffusers_warp",
+        "documentation": {}
+    },
+    {
+        "label": "init_diffusers_unet",
+        "importPath": "svgdreamer.diffusers_warp",
+        "description": "svgdreamer.diffusers_warp",
+        "isExtraImport": true,
+        "detail": "svgdreamer.diffusers_warp",
+        "documentation": {}
+    },
+    {
+        "label": "model2res",
+        "importPath": "svgdreamer.diffusers_warp",
+        "description": "svgdreamer.diffusers_warp",
+        "isExtraImport": true,
+        "detail": "svgdreamer.diffusers_warp",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionStore",
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "isExtraImport": true,
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyControl",
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "isExtraImport": true,
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionStore",
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "isExtraImport": true,
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "text_under_image",
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "view_images",
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "view_images",
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "DiffVGState",
+        "importPath": "svgdreamer.diffvg_warp",
+        "description": "svgdreamer.diffvg_warp",
+        "isExtraImport": true,
+        "detail": "svgdreamer.diffvg_warp",
+        "documentation": {}
+    },
+    {
+        "label": "AnyPath",
+        "importPath": "svgdreamer.utils",
+        "description": "svgdreamer.utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "init_tensor_with_color",
+        "importPath": "svgdreamer.utils",
+        "description": "svgdreamer.utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AnyPath",
+        "importPath": "svgdreamer.utils",
+        "description": "svgdreamer.utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "mkdir",
+        "importPath": "svgdreamer.utils",
+        "description": "svgdreamer.utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "render_batch_wrap",
+        "importPath": "svgdreamer.utils",
+        "description": "svgdreamer.utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_seed_range",
+        "importPath": "svgdreamer.utils",
+        "description": "svgdreamer.utils",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAAttnProcessor",
+        "importPath": "diffusers.models.attention_processor",
+        "description": "diffusers.models.attention_processor",
+        "isExtraImport": true,
+        "detail": "diffusers.models.attention_processor",
+        "documentation": {}
+    },
+    {
+        "label": "AttnProcsLayers",
+        "importPath": "diffusers.loaders",
+        "description": "diffusers.loaders",
+        "isExtraImport": true,
+        "detail": "diffusers.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "cairosvg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cairosvg",
+        "description": "cairosvg",
+        "detail": "cairosvg",
+        "documentation": {}
+    },
+    {
+        "label": "rgb2gray",
+        "importPath": "skimage.color",
+        "description": "skimage.color",
+        "isExtraImport": true,
+        "detail": "skimage.color",
+        "documentation": {}
+    },
+    {
+        "label": "plot_img",
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_couple",
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_attn",
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "save_image",
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "isExtraImport": true,
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "merge_svg_files",
+        "importPath": "svgdreamer.svgtools",
+        "description": "svgdreamer.svgtools",
+        "isExtraImport": true,
+        "detail": "svgdreamer.svgtools",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_svg",
+        "importPath": "svgdreamer.svgtools",
+        "description": "svgdreamer.svgtools",
+        "isExtraImport": true,
+        "detail": "svgdreamer.svgtools",
+        "documentation": {}
+    },
+    {
+        "label": "svg2paths",
+        "importPath": "svgpathtools",
+        "description": "svgpathtools",
+        "isExtraImport": true,
+        "detail": "svgpathtools",
+        "documentation": {}
+    },
+    {
+        "label": "wsvg",
+        "importPath": "svgpathtools",
+        "description": "svgpathtools",
+        "isExtraImport": true,
+        "detail": "svgpathtools",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "default_collate",
+        "importPath": "torch.utils.data._utils.collate",
+        "description": "torch.utils.data._utils.collate",
+        "isExtraImport": true,
+        "detail": "torch.utils.data._utils.collate",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "make_grid",
+        "importPath": "torchvision.utils",
+        "description": "torchvision.utils",
+        "isExtraImport": true,
+        "detail": "torchvision.utils",
+        "documentation": {}
+    },
+    {
+        "label": "SVGDreamerPipeline",
+        "importPath": "svgdreamer.pipelines.SVGDreamer_pipeline",
+        "description": "svgdreamer.pipelines.SVGDreamer_pipeline",
+        "isExtraImport": true,
+        "detail": "svgdreamer.pipelines.SVGDreamer_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "init_tokenizer",
+        "kind": 2,
+        "importPath": "ImageReward.models.BLIP.blip",
+        "description": "ImageReward.models.BLIP.blip",
+        "peekOfCode": "def init_tokenizer():\n    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')\n    tokenizer.add_special_tokens({'bos_token':'[DEC]'})\n    tokenizer.add_special_tokens({'additional_special_tokens':['[ENC]']})       \n    tokenizer.enc_token_id = tokenizer.additional_special_tokens_ids[0]  \n    return tokenizer\ndef create_vit(vit, image_size, use_grad_checkpointing=False, ckpt_layer=0, drop_path_rate=0):\n    assert vit in ['base', 'large'], \"vit parameter must be base or large\"\n    if vit=='base':\n        vision_width = 768",
+        "detail": "ImageReward.models.BLIP.blip",
+        "documentation": {}
+    },
+    {
+        "label": "create_vit",
+        "kind": 2,
+        "importPath": "ImageReward.models.BLIP.blip",
+        "description": "ImageReward.models.BLIP.blip",
+        "peekOfCode": "def create_vit(vit, image_size, use_grad_checkpointing=False, ckpt_layer=0, drop_path_rate=0):\n    assert vit in ['base', 'large'], \"vit parameter must be base or large\"\n    if vit=='base':\n        vision_width = 768\n        visual_encoder = VisionTransformer(img_size=image_size, patch_size=16, embed_dim=vision_width, depth=12, \n                                           num_heads=12, use_grad_checkpointing=use_grad_checkpointing, ckpt_layer=ckpt_layer,\n                                           drop_path_rate=0 or drop_path_rate\n                                          )   \n    elif vit=='large':\n        vision_width = 1024",
+        "detail": "ImageReward.models.BLIP.blip",
+        "documentation": {}
+    },
+    {
+        "label": "is_url",
+        "kind": 2,
+        "importPath": "ImageReward.models.BLIP.blip",
+        "description": "ImageReward.models.BLIP.blip",
+        "peekOfCode": "def is_url(url_or_filename):\n    parsed = urlparse(url_or_filename)\n    return parsed.scheme in (\"http\", \"https\")\ndef load_checkpoint(model,url_or_filename):\n    if is_url(url_or_filename):\n        cached_file = download_cached_file(url_or_filename, check_hash=False, progress=True)\n        checkpoint = torch.load(cached_file, map_location='cpu') \n    elif os.path.isfile(url_or_filename):        \n        checkpoint = torch.load(url_or_filename, map_location='cpu') \n    else:",
+        "detail": "ImageReward.models.BLIP.blip",
+        "documentation": {}
+    },
+    {
+        "label": "load_checkpoint",
+        "kind": 2,
+        "importPath": "ImageReward.models.BLIP.blip",
+        "description": "ImageReward.models.BLIP.blip",
+        "peekOfCode": "def load_checkpoint(model,url_or_filename):\n    if is_url(url_or_filename):\n        cached_file = download_cached_file(url_or_filename, check_hash=False, progress=True)\n        checkpoint = torch.load(cached_file, map_location='cpu') \n    elif os.path.isfile(url_or_filename):        \n        checkpoint = torch.load(url_or_filename, map_location='cpu') \n    else:\n        raise RuntimeError('checkpoint url or path is invalid')\n    state_dict = checkpoint['model']\n    state_dict['visual_encoder.pos_embed'] = interpolate_pos_embed(state_dict['visual_encoder.pos_embed'],model.visual_encoder) ",
+        "detail": "ImageReward.models.BLIP.blip",
+        "documentation": {}
+    },
+    {
+        "label": "BLIP_Pretrain",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.blip_pretrain",
+        "description": "ImageReward.models.BLIP.blip_pretrain",
+        "peekOfCode": "class BLIP_Pretrain(nn.Module):\n    def __init__(self,                 \n                 med_config = \"med_config.json\",  \n                 image_size = 224,\n                 vit = 'base',\n                 vit_grad_ckpt = False,\n                 vit_ckpt_layer = 0,                    \n                 embed_dim = 256,     \n                 queue_size = 57600,\n                 momentum = 0.995,",
+        "detail": "ImageReward.models.BLIP.blip_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "BertEmbeddings",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertEmbeddings(nn.Module):\n    \"\"\"Construct the embeddings from word and position embeddings.\"\"\"\n    def __init__(self, config):\n        super().__init__()\n        self.word_embeddings = nn.Embedding(config.vocab_size, config.hidden_size, padding_idx=config.pad_token_id)\n        self.position_embeddings = nn.Embedding(config.max_position_embeddings, config.hidden_size)\n        # self.LayerNorm is not snake-cased to stick with TensorFlow model variable name and be able to load\n        # any TensorFlow checkpoint file\n        self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)\n        self.dropout = nn.Dropout(config.hidden_dropout_prob)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertSelfAttention",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertSelfAttention(nn.Module):\n    def __init__(self, config, is_cross_attention):\n        super().__init__()\n        self.config = config\n        if config.hidden_size % config.num_attention_heads != 0 and not hasattr(config, \"embedding_size\"):\n            raise ValueError(\n                \"The hidden size (%d) is not a multiple of the number of attention \"\n                \"heads (%d)\" % (config.hidden_size, config.num_attention_heads)\n            )\n        self.num_attention_heads = config.num_attention_heads",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertSelfOutput",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertSelfOutput(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.dense = nn.Linear(config.hidden_size, config.hidden_size)\n        self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)\n        self.dropout = nn.Dropout(config.hidden_dropout_prob)\n    def forward(self, hidden_states, input_tensor):\n        hidden_states = self.dense(hidden_states)\n        hidden_states = self.dropout(hidden_states)\n        hidden_states = self.LayerNorm(hidden_states + input_tensor)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertAttention",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertAttention(nn.Module):\n    def __init__(self, config, is_cross_attention=False):\n        super().__init__()\n        self.self = BertSelfAttention(config, is_cross_attention)\n        self.output = BertSelfOutput(config)\n        self.pruned_heads = set()\n    def prune_heads(self, heads):\n        if len(heads) == 0:\n            return\n        heads, index = find_pruneable_heads_and_indices(",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertIntermediate",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertIntermediate(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.dense = nn.Linear(config.hidden_size, config.intermediate_size)\n        if isinstance(config.hidden_act, str):\n            self.intermediate_act_fn = ACT2FN[config.hidden_act]\n        else:\n            self.intermediate_act_fn = config.hidden_act\n    def forward(self, hidden_states):\n        hidden_states = self.dense(hidden_states)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertOutput",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertOutput(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.dense = nn.Linear(config.intermediate_size, config.hidden_size)\n        self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)\n        self.dropout = nn.Dropout(config.hidden_dropout_prob)\n    def forward(self, hidden_states, input_tensor):\n        hidden_states = self.dense(hidden_states)\n        hidden_states = self.dropout(hidden_states)\n        hidden_states = self.LayerNorm(hidden_states + input_tensor)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertLayer",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertLayer(nn.Module):\n    def __init__(self, config, layer_num):\n        super().__init__()\n        self.config = config\n        self.chunk_size_feed_forward = config.chunk_size_feed_forward\n        self.seq_len_dim = 1\n        self.attention = BertAttention(config)      \n        self.layer_num = layer_num          \n        if self.config.add_cross_attention:\n            self.crossattention = BertAttention(config, is_cross_attention=self.config.add_cross_attention)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertEncoder",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertEncoder(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.config = config\n        self.layer = nn.ModuleList([BertLayer(config,i) for i in range(config.num_hidden_layers)])\n        self.gradient_checkpointing = False\n    def forward(\n        self,\n        hidden_states,\n        attention_mask=None,",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertPooler",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertPooler(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.dense = nn.Linear(config.hidden_size, config.hidden_size)\n        self.activation = nn.Tanh()\n    def forward(self, hidden_states):\n        # We \"pool\" the model by simply taking the hidden state corresponding\n        # to the first token.\n        first_token_tensor = hidden_states[:, 0]\n        pooled_output = self.dense(first_token_tensor)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertPredictionHeadTransform",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertPredictionHeadTransform(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.dense = nn.Linear(config.hidden_size, config.hidden_size)\n        if isinstance(config.hidden_act, str):\n            self.transform_act_fn = ACT2FN[config.hidden_act]\n        else:\n            self.transform_act_fn = config.hidden_act\n        self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)\n    def forward(self, hidden_states):",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertLMPredictionHead",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertLMPredictionHead(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.transform = BertPredictionHeadTransform(config)\n        # The output weights are the same as the input embeddings, but there is\n        # an output-only bias for each token.\n        self.decoder = nn.Linear(config.hidden_size, config.vocab_size, bias=False)\n        self.bias = nn.Parameter(torch.zeros(config.vocab_size))\n        # Need a link between the two variables so that the bias is correctly resized with `resize_token_embeddings`\n        self.decoder.bias = self.bias",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertOnlyMLMHead",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertOnlyMLMHead(nn.Module):\n    def __init__(self, config):\n        super().__init__()\n        self.predictions = BertLMPredictionHead(config)\n    def forward(self, sequence_output):\n        prediction_scores = self.predictions(sequence_output)\n        return prediction_scores\nclass BertPreTrainedModel(PreTrainedModel):\n    \"\"\"\n    An abstract class to handle weights initialization and a simple interface for downloading and loading pretrained",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertPreTrainedModel",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertPreTrainedModel(PreTrainedModel):\n    \"\"\"\n    An abstract class to handle weights initialization and a simple interface for downloading and loading pretrained\n    models.\n    \"\"\"\n    config_class = BertConfig\n    base_model_prefix = \"bert\"\n    _keys_to_ignore_on_load_missing = [r\"position_ids\"]\n    def _init_weights(self, module):\n        \"\"\" Initialize the weights \"\"\"",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertModel",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertModel(BertPreTrainedModel):\n    \"\"\"\n    The model can behave as an encoder (with only self-attention) as well as a decoder, in which case a layer of\n    cross-attention is added between the self-attention layers, following the architecture described in `Attention is\n    all you need <https://arxiv.org/abs/1706.03762>`__ by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit,\n    Llion Jones, Aidan N. Gomez, Lukasz Kaiser and Illia Polosukhin.\n    argument and :obj:`add_cross_attention` set to :obj:`True`; an :obj:`encoder_hidden_states` is then expected as an\n    input to the forward pass.\n    \"\"\"\n    def __init__(self, config, add_pooling_layer=True):",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "BertLMHeadModel",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "class BertLMHeadModel(BertPreTrainedModel):\n    _keys_to_ignore_on_load_unexpected = [r\"pooler\"]\n    _keys_to_ignore_on_load_missing = [r\"position_ids\", r\"predictions.decoder.bias\"]\n    def __init__(self, config):\n        super().__init__(config)\n        self.bert = BertModel(config, add_pooling_layer=False)\n        self.cls = BertOnlyMLMHead(config)\n        self.init_weights()\n    def get_output_embeddings(self):\n        return self.cls.predictions.decoder",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "ImageReward.models.BLIP.med",
+        "description": "ImageReward.models.BLIP.med",
+        "peekOfCode": "logger = logging.get_logger(__name__)\nclass BertEmbeddings(nn.Module):\n    \"\"\"Construct the embeddings from word and position embeddings.\"\"\"\n    def __init__(self, config):\n        super().__init__()\n        self.word_embeddings = nn.Embedding(config.vocab_size, config.hidden_size, padding_idx=config.pad_token_id)\n        self.position_embeddings = nn.Embedding(config.max_position_embeddings, config.hidden_size)\n        # self.LayerNorm is not snake-cased to stick with TensorFlow model variable name and be able to load\n        # any TensorFlow checkpoint file\n        self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)",
+        "detail": "ImageReward.models.BLIP.med",
+        "documentation": {}
+    },
+    {
+        "label": "Mlp",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.vit",
+        "description": "ImageReward.models.BLIP.vit",
+        "peekOfCode": "class Mlp(nn.Module):\n    \"\"\" MLP as used in Vision Transformer, MLP-Mixer and related networks\n    \"\"\"\n    def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):\n        super().__init__()\n        out_features = out_features or in_features\n        hidden_features = hidden_features or in_features\n        self.fc1 = nn.Linear(in_features, hidden_features)\n        self.act = act_layer()\n        self.fc2 = nn.Linear(hidden_features, out_features)",
+        "detail": "ImageReward.models.BLIP.vit",
+        "documentation": {}
+    },
+    {
+        "label": "Attention",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.vit",
+        "description": "ImageReward.models.BLIP.vit",
+        "peekOfCode": "class Attention(nn.Module):\n    def __init__(self, dim, num_heads=8, qkv_bias=False, qk_scale=None, attn_drop=0., proj_drop=0.):\n        super().__init__()\n        self.num_heads = num_heads\n        head_dim = dim // num_heads\n        # NOTE scale factor was wrong in my original version, can set manually to be compat with prev weights\n        self.scale = qk_scale or head_dim ** -0.5\n        self.qkv = nn.Linear(dim, dim * 3, bias=qkv_bias)\n        self.attn_drop = nn.Dropout(attn_drop)\n        self.proj = nn.Linear(dim, dim)",
+        "detail": "ImageReward.models.BLIP.vit",
+        "documentation": {}
+    },
+    {
+        "label": "Block",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.vit",
+        "description": "ImageReward.models.BLIP.vit",
+        "peekOfCode": "class Block(nn.Module):\n    def __init__(self, dim, num_heads, mlp_ratio=4., qkv_bias=False, qk_scale=None, drop=0., attn_drop=0.,\n                 drop_path=0., act_layer=nn.GELU, norm_layer=nn.LayerNorm, use_grad_checkpointing=False):\n        super().__init__()\n        self.norm1 = norm_layer(dim)\n        self.attn = Attention(\n            dim, num_heads=num_heads, qkv_bias=qkv_bias, qk_scale=qk_scale, attn_drop=attn_drop, proj_drop=drop)\n        # NOTE: drop path for stochastic depth, we shall see if this is better than dropout here\n        self.drop_path = DropPath(drop_path) if drop_path > 0. else nn.Identity()\n        self.norm2 = norm_layer(dim)",
+        "detail": "ImageReward.models.BLIP.vit",
+        "documentation": {}
+    },
+    {
+        "label": "VisionTransformer",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIP.vit",
+        "description": "ImageReward.models.BLIP.vit",
+        "peekOfCode": "class VisionTransformer(nn.Module):\n    \"\"\" Vision Transformer\n    A PyTorch impl of : `An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale`  -\n        https://arxiv.org/abs/2010.11929\n    \"\"\"\n    def __init__(self, img_size=224, patch_size=16, in_chans=3, num_classes=1000, embed_dim=768, depth=12,\n                 num_heads=12, mlp_ratio=4., qkv_bias=True, qk_scale=None, representation_size=None,\n                 drop_rate=0., attn_drop_rate=0., drop_path_rate=0., norm_layer=None, \n                 use_grad_checkpointing=False, ckpt_layer=0):\n        \"\"\"",
+        "detail": "ImageReward.models.BLIP.vit",
+        "documentation": {}
+    },
+    {
+        "label": "interpolate_pos_embed",
+        "kind": 2,
+        "importPath": "ImageReward.models.BLIP.vit",
+        "description": "ImageReward.models.BLIP.vit",
+        "peekOfCode": "def interpolate_pos_embed(pos_embed_checkpoint, visual_encoder):        \n    # interpolate position embedding\n    embedding_size = pos_embed_checkpoint.shape[-1]\n    num_patches = visual_encoder.patch_embed.num_patches\n    num_extra_tokens = visual_encoder.pos_embed.shape[-2] - num_patches\n    # height (== width) for the checkpoint position embedding\n    orig_size = int((pos_embed_checkpoint.shape[-2] - num_extra_tokens) ** 0.5)\n    # height (== width) for the new position embedding\n    new_size = int(num_patches ** 0.5)\n    if orig_size!=new_size:",
+        "detail": "ImageReward.models.BLIP.vit",
+        "documentation": {}
+    },
+    {
+        "label": "MLP",
+        "kind": 6,
+        "importPath": "ImageReward.models.AestheticScore",
+        "description": "ImageReward.models.AestheticScore",
+        "peekOfCode": "class MLP(nn.Module):\n    def __init__(self, input_size):\n        super().__init__()\n        self.input_size = input_size\n        self.layers = nn.Sequential(\n            nn.Linear(self.input_size, 1024),\n            # nn.ReLU(),\n            nn.Dropout(0.2),\n            nn.Linear(1024, 128),\n            # nn.ReLU(),",
+        "detail": "ImageReward.models.AestheticScore",
+        "documentation": {}
+    },
+    {
+        "label": "AestheticScore",
+        "kind": 6,
+        "importPath": "ImageReward.models.AestheticScore",
+        "description": "ImageReward.models.AestheticScore",
+        "peekOfCode": "class AestheticScore(nn.Module):\n    def __init__(self, download_root, device='cpu'):\n        super().__init__()\n        self.device = device\n        self.clip_model, self.preprocess = clip.load(\"ViT-L/14\", device=self.device, jit=False,\n                                                     download_root=download_root)\n        self.mlp = MLP(768)\n        if device == \"cpu\":\n            self.clip_model.float()\n        else:",
+        "detail": "ImageReward.models.AestheticScore",
+        "documentation": {}
+    },
+    {
+        "label": "BLIPScore",
+        "kind": 6,
+        "importPath": "ImageReward.models.BLIPScore",
+        "description": "ImageReward.models.BLIPScore",
+        "peekOfCode": "class BLIPScore(nn.Module):\n    def __init__(self, med_config, device='cpu'):\n        super().__init__()\n        self.device = device\n        self.preprocess = _transform(224)\n        self.blip = BLIP_Pretrain(image_size=224, vit='large', med_config=med_config)\n    def score(self, prompt, image_path):\n        if (type(image_path).__name__=='list'):\n            _, rewards = self.inference_rank(prompt, image_path)\n            return rewards",
+        "detail": "ImageReward.models.BLIPScore",
+        "documentation": {}
+    },
+    {
+        "label": "CLIPScore",
+        "kind": 6,
+        "importPath": "ImageReward.models.CLIPScore",
+        "description": "ImageReward.models.CLIPScore",
+        "peekOfCode": "class CLIPScore(nn.Module):\n    def __init__(self, download_root, device='cpu'):\n        super().__init__()\n        self.device = device\n        self.clip_model, self.preprocess = clip.load(\"ViT-L/14\", device=self.device, jit=False, \n                                                     download_root=download_root)\n        if device == \"cpu\":\n            self.clip_model.float()\n        else:\n            clip.model.convert_weights(self.clip_model) # Actually this line is unnecessary since clip by default already on float16",
+        "detail": "ImageReward.models.CLIPScore",
+        "documentation": {}
+    },
+    {
+        "label": "MLP",
+        "kind": 6,
+        "importPath": "ImageReward.ImageReward",
+        "description": "ImageReward.ImageReward",
+        "peekOfCode": "class MLP(nn.Module):\n    def __init__(self, input_size):\n        super().__init__()\n        self.input_size = input_size\n        self.layers = nn.Sequential(\n            nn.Linear(self.input_size, 1024),\n            # nn.ReLU(),\n            nn.Dropout(0.2),\n            nn.Linear(1024, 128),\n            # nn.ReLU(),",
+        "detail": "ImageReward.ImageReward",
+        "documentation": {}
+    },
+    {
+        "label": "ImageReward",
+        "kind": 6,
+        "importPath": "ImageReward.ImageReward",
+        "description": "ImageReward.ImageReward",
+        "peekOfCode": "class ImageReward(nn.Module):\n    def __init__(self, med_config, device='cpu'):\n        super().__init__()\n        self.device = device\n        self.blip = BLIP_Pretrain(image_size=224, vit='large', med_config=med_config)\n        self.preprocess = _transform(224)\n        self.mlp = MLP(768)\n        self.mean = 0.16717362830052426\n        self.std = 1.0333394966054072\n    def text_tokenizer(self, prompt):",
+        "detail": "ImageReward.ImageReward",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "kind": 6,
+        "importPath": "ImageReward.ReFL",
+        "description": "ImageReward.ReFL",
+        "peekOfCode": "class Trainer(object):\n    def __init__(self, pretrained_model_name_or_path, train_data_dir, args):\n        self.pretrained_model_name_or_path = pretrained_model_name_or_path\n        self.train_data_dir = train_data_dir\n        # Sanity checks\n        if args.dataset_name is None and self.train_data_dir is None:\n            raise ValueError(\"Need either a dataset name or a training folder.\")\n        if args.non_ema_revision is not None:\n            deprecate(\n                \"non_ema_revision!=None\",",
+        "detail": "ImageReward.ReFL",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "ImageReward.ReFL",
+        "description": "ImageReward.ReFL",
+        "peekOfCode": "def parse_args():\n    parser = argparse.ArgumentParser(description=\"Simple example of a training script.\")\n    parser.add_argument(\n        \"--grad_scale\", type=float, default=1e-3, help=\"Scale divided for grad loss value.\"\n    )\n    parser.add_argument(\n        \"--input_pertubation\", type=float, default=0, help=\"The scale of input pretubation. Recommended 0.1.\"\n    )\n    parser.add_argument(\n        \"--revision\",",
+        "detail": "ImageReward.ReFL",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "ImageReward.ReFL",
+        "description": "ImageReward.ReFL",
+        "peekOfCode": "logger = get_logger(__name__, log_level=\"INFO\")\nDATASET_NAME_MAPPING = {\n    \"refl\": (\"image\", \"text\"),\n}\ndef parse_args():\n    parser = argparse.ArgumentParser(description=\"Simple example of a training script.\")\n    parser.add_argument(\n        \"--grad_scale\", type=float, default=1e-3, help=\"Scale divided for grad loss value.\"\n    )\n    parser.add_argument(",
+        "detail": "ImageReward.ReFL",
+        "documentation": {}
+    },
+    {
+        "label": "DATASET_NAME_MAPPING",
+        "kind": 5,
+        "importPath": "ImageReward.ReFL",
+        "description": "ImageReward.ReFL",
+        "peekOfCode": "DATASET_NAME_MAPPING = {\n    \"refl\": (\"image\", \"text\"),\n}\ndef parse_args():\n    parser = argparse.ArgumentParser(description=\"Simple example of a training script.\")\n    parser.add_argument(\n        \"--grad_scale\", type=float, default=1e-3, help=\"Scale divided for grad loss value.\"\n    )\n    parser.add_argument(\n        \"--input_pertubation\", type=float, default=0, help=\"The scale of input pretubation. Recommended 0.1.\"",
+        "detail": "ImageReward.ReFL",
+        "documentation": {}
+    },
+    {
+        "label": "available_models",
+        "kind": 2,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "def available_models() -> List[str]:\n    \"\"\"Returns the names of available ImageReward models\"\"\"\n    return list(_MODELS.keys())\ndef ImageReward_download(url: str, root: str):\n    os.makedirs(root, exist_ok=True)\n    filename = os.path.basename(url)\n    download_target = os.path.join(root, filename)\n    hf_hub_download(repo_id=\"THUDM/ImageReward\", filename=filename, local_dir=root)\n    return download_target\ndef load(name: str = \"ImageReward-v1.0\",",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ImageReward_download",
+        "kind": 2,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "def ImageReward_download(url: str, root: str):\n    os.makedirs(root, exist_ok=True)\n    filename = os.path.basename(url)\n    download_target = os.path.join(root, filename)\n    hf_hub_download(repo_id=\"THUDM/ImageReward\", filename=filename, local_dir=root)\n    return download_target\ndef load(name: str = \"ImageReward-v1.0\",\n         device: Union[str, torch.device] = \"cuda\" if torch.cuda.is_available() else \"cpu\",\n         download_root: str = None,\n         med_config_path: str = None):",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "kind": 2,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "def load(name: str = \"ImageReward-v1.0\",\n         device: Union[str, torch.device] = \"cuda\" if torch.cuda.is_available() else \"cpu\",\n         download_root: str = None,\n         med_config_path: str = None):\n    \"\"\"Load a ImageReward model\n    Parameters\n    ----------\n    name: str\n        A model name listed by `ImageReward.available_models()`, or the path to a model checkpoint containing the state_dict\n    device: Union[str, torch.device]",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "available_scores",
+        "kind": 2,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "def available_scores() -> List[str]:\n    \"\"\"Returns the names of available ImageReward scores\"\"\"\n    return list(_SCORES.keys())\ndef _download(url: str, root: str):\n    os.makedirs(root, exist_ok=True)\n    filename = os.path.basename(url)\n    download_target = os.path.join(root, filename)\n    if os.path.exists(download_target) and not os.path.isfile(download_target):\n        raise RuntimeError(f\"{download_target} exists and is not a regular file\")\n    if os.path.isfile(download_target):",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_score",
+        "kind": 2,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "def load_score(name: str = \"CLIP\", device: Union[str, torch.device] = \"cuda\" if torch.cuda.is_available() else \"cpu\",\n               download_root: str = None):\n    \"\"\"Load a ImageReward model\n    Parameters\n    ----------\n    name : str\n        A model name listed by `ImageReward.available_models()`\n    device : Union[str, torch.device]\n        The device to put the loaded model\n    download_root: str",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "_MODELS",
+        "kind": 5,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "_MODELS = {\n    \"ImageReward-v1.0\": \"https://huggingface.co/THUDM/ImageReward/blob/main/ImageReward.pt\",\n}\ndef available_models() -> List[str]:\n    \"\"\"Returns the names of available ImageReward models\"\"\"\n    return list(_MODELS.keys())\ndef ImageReward_download(url: str, root: str):\n    os.makedirs(root, exist_ok=True)\n    filename = os.path.basename(url)\n    download_target = os.path.join(root, filename)",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "_SCORES",
+        "kind": 5,
+        "importPath": "ImageReward.utils",
+        "description": "ImageReward.utils",
+        "peekOfCode": "_SCORES = {\n    \"CLIP\": \"https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt\",\n    \"BLIP\": \"https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large.pth\",\n    \"Aesthetic\": \"https://github.com/christophschuhmann/improved-aesthetic-predictor/raw/main/sac%2Blogos%2Bava1-l14-linearMSE.pth\",\n}\ndef available_scores() -> List[str]:\n    \"\"\"Returns the names of available ImageReward scores\"\"\"\n    return list(_SCORES.keys())\ndef _download(url: str, root: str):\n    os.makedirs(root, exist_ok=True)",
+        "detail": "ImageReward.utils",
+        "documentation": {}
+    },
+    {
+        "label": "DiffVGState",
+        "kind": 6,
+        "importPath": "svgdreamer.diffvg_warp.diffvg_state",
+        "description": "svgdreamer.diffvg_warp.diffvg_state",
+        "peekOfCode": "class DiffVGState(torch.nn.Module):\n    def __init__(self,\n                 device: torch.device,\n                 use_gpu: bool = torch.cuda.is_available(),\n                 print_timing: bool = False,\n                 canvas_width: int = None,\n                 canvas_height: int = None):\n        super(DiffVGState, self).__init__()\n        # pydiffvg device setting\n        self.device = device",
+        "detail": "svgdreamer.diffvg_warp.diffvg_state",
+        "documentation": {}
+    },
+    {
+        "label": "init_pydiffvg",
+        "kind": 2,
+        "importPath": "svgdreamer.diffvg_warp.diffvg_state",
+        "description": "svgdreamer.diffvg_warp.diffvg_state",
+        "peekOfCode": "def init_pydiffvg(device: torch.device,\n                  use_gpu: bool = torch.cuda.is_available(),\n                  print_timing: bool = False):\n    pydiffvg.set_use_gpu(use_gpu)\n    pydiffvg.set_device(device)\n    pydiffvg.set_print_timing(print_timing)\nclass DiffVGState(torch.nn.Module):\n    def __init__(self,\n                 device: torch.device,\n                 use_gpu: bool = torch.cuda.is_available(),",
+        "detail": "svgdreamer.diffvg_warp.diffvg_state",
+        "documentation": {}
+    },
+    {
+        "label": "PrintLogger",
+        "kind": 6,
+        "importPath": "svgdreamer.libs.logging",
+        "description": "svgdreamer.libs.logging",
+        "peekOfCode": "class PrintLogger(object):\n    def __init__(self, fpath=None):\n        \"\"\"\n        python standard input/output records\n        \"\"\"\n        self.console = sys.stdout\n        self.file = None\n        if fpath is not None:\n            mkdir_if_missing(os.path.dirname(fpath))\n            self.file = open(fpath, 'w')",
+        "detail": "svgdreamer.libs.logging",
+        "documentation": {}
+    },
+    {
+        "label": "build_sysout_print_logger",
+        "kind": 2,
+        "importPath": "svgdreamer.libs.logging",
+        "description": "svgdreamer.libs.logging",
+        "peekOfCode": "def build_sysout_print_logger(logs_dir: str, file_name: str = \"log.txt\"):\n    logger = PrintLogger(os.path.join(logs_dir, file_name))\n    sys.stdout = logger  # record all python print\n    return logger\nclass PrintLogger(object):\n    def __init__(self, fpath=None):\n        \"\"\"\n        python standard input/output records\n        \"\"\"\n        self.console = sys.stdout",
+        "detail": "svgdreamer.libs.logging",
+        "documentation": {}
+    },
+    {
+        "label": "mkdir_if_missing",
+        "kind": 2,
+        "importPath": "svgdreamer.libs.logging",
+        "description": "svgdreamer.libs.logging",
+        "peekOfCode": "def mkdir_if_missing(dir_path):\n    try:\n        os.makedirs(dir_path)\n    except OSError as e:\n        if e.errno != errno.EEXIST:\n            raise",
+        "detail": "svgdreamer.libs.logging",
+        "documentation": {}
+    },
+    {
+        "label": "ModelState",
+        "kind": 6,
+        "importPath": "svgdreamer.libs.model_state",
+        "description": "svgdreamer.libs.model_state",
+        "peekOfCode": "class ModelState:\n    \"\"\"\n    Handling logger and `hugging face` accelerate training\n    features:\n        - Precision\n        - Device\n        - Optimizer\n        - Logger (default: python system print and logging)\n        - Monitor (default: wandb, tensorboard)\n    \"\"\"",
+        "detail": "svgdreamer.libs.model_state",
+        "documentation": {}
+    },
+    {
+        "label": "dictconfig_diff",
+        "kind": 2,
+        "importPath": "svgdreamer.libs.model_state",
+        "description": "svgdreamer.libs.model_state",
+        "peekOfCode": "def dictconfig_diff(dict1, dict2):\n    \"\"\"\n    Find the difference between two OmegaConf.DictConfig objects\n    \"\"\"\n    # Convert OmegaConf.DictConfig to regular dictionaries\n    dict1 = OmegaConf.to_container(dict1, resolve=True)\n    dict2 = OmegaConf.to_container(dict2, resolve=True)\n    # Find the keys that are in dict1 but not in dict2\n    diff = {}\n    for key in dict1:",
+        "detail": "svgdreamer.libs.model_state",
+        "documentation": {}
+    },
+    {
+        "label": "get_optimizer",
+        "kind": 2,
+        "importPath": "svgdreamer.libs.optim",
+        "description": "svgdreamer.libs.optim",
+        "peekOfCode": "def get_optimizer(optimizer_name, parameters, lr=None, config: DictConfig = None):\n    param_dict = {}\n    if optimizer_name == \"adam\":\n        optimizer = partial(torch.optim.Adam, params=parameters)\n        if lr is not None:\n            optimizer = partial(torch.optim.Adam, params=parameters, lr=lr)\n        if config.get('betas'):\n            param_dict['betas'] = config.betas\n        if config.get('weight_decay'):\n            param_dict['weight_decay'] = config.weight_decay",
+        "detail": "svgdreamer.libs.optim",
+        "documentation": {}
+    },
+    {
+        "label": "CompPainter",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.component_painter_params",
+        "description": "svgdreamer.painter.component_painter_params",
+        "peekOfCode": "class CompPainter:\n    def __init__(\n            self,\n            style: str,\n            target_img: torch.Tensor,\n            canvas_size: Tuple[int, int] = (600, 600),\n            num_segments: int = 4,\n            segment_init: str = 'circle',\n            radius: int = 20,\n            n_grid: int = 32,",
+        "detail": "svgdreamer.painter.component_painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "LinearDecayLRLambda",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.component_painter_params",
+        "description": "svgdreamer.painter.component_painter_params",
+        "peekOfCode": "class LinearDecayLRLambda:\n    def __init__(self, init_lr, keep_ratio, decay_every, decay_ratio):\n        self.init_lr = init_lr\n        self.keep_ratio = keep_ratio\n        self.decay_every = decay_every\n        self.decay_ratio = decay_ratio\n    def __call__(self, n):\n        if n < self.keep_ratio * self.decay_every:\n            return self.init_lr\n        decay_time = n // self.decay_every",
+        "detail": "svgdreamer.painter.component_painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "CompPainterOptimizer",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.component_painter_params",
+        "description": "svgdreamer.painter.component_painter_params",
+        "peekOfCode": "class CompPainterOptimizer:\n    def __init__(self,\n                 renderer: CompPainter,\n                 style: str,\n                 num_iter: int,\n                 lr_config: DictConfig,\n                 optim_bg: bool = False):\n        self.renderer = renderer\n        self.style = style\n        self.num_iter = num_iter",
+        "detail": "svgdreamer.painter.component_painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "softmax_t",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.component_painter_params",
+        "description": "svgdreamer.painter.component_painter_params",
+        "peekOfCode": "def softmax_t(x, tau=0.2):\n    e_x = np.exp(x / tau)\n    return e_x / e_x.sum()\ndef get_circle_coordinates(center, radius, k):\n    coordinates = []\n    cx, cy = center\n    angle = 2 * math.pi / k\n    for i in range(k):\n        theta = i * angle  # cur angle\n        x = cx + radius * math.cos(theta)  # x",
+        "detail": "svgdreamer.painter.component_painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "get_circle_coordinates",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.component_painter_params",
+        "description": "svgdreamer.painter.component_painter_params",
+        "peekOfCode": "def get_circle_coordinates(center, radius, k):\n    coordinates = []\n    cx, cy = center\n    angle = 2 * math.pi / k\n    for i in range(k):\n        theta = i * angle  # cur angle\n        x = cx + radius * math.cos(theta)  # x\n        y = cy + radius * math.sin(theta)  # y\n        coordinates.append((x, y))\n    return coordinates",
+        "detail": "svgdreamer.painter.component_painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "DiffusionPipeline",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.diffusion_pipeline",
+        "description": "svgdreamer.painter.diffusion_pipeline",
+        "peekOfCode": "class DiffusionPipeline(torch.nn.Module):\n    def __init__(self, model_cfg: DictConfig, diffuser_cfg: DictConfig, device: torch.device):\n        super().__init__()\n        self.device = device\n        pipe_kwargs = {\n            \"device\": self.device,\n            \"torch_dtype\": torch.float32,\n            \"local_files_only\": not diffuser_cfg.download,\n            \"force_download\": diffuser_cfg.force_download,\n            \"resume_download\": diffuser_cfg.resume_download,",
+        "detail": "svgdreamer.painter.diffusion_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "P2PCrossAttnProcessor",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.diffusion_pipeline",
+        "description": "svgdreamer.painter.diffusion_pipeline",
+        "peekOfCode": "class P2PCrossAttnProcessor:\n    def __init__(self, controller, place_in_unet):\n        super().__init__()\n        self.controller = controller\n        self.place_in_unet = place_in_unet\n    def __call__(self, attn, hidden_states, encoder_hidden_states=None, attention_mask=None):\n        batch_size, sequence_length, _ = hidden_states.shape\n        attention_mask = attn.prepare_attention_mask(attention_mask, sequence_length, batch_size=batch_size)\n        query = attn.to_q(hidden_states)\n        is_cross = encoder_hidden_states is not None",
+        "detail": "svgdreamer.painter.diffusion_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "channel_saturation_penalty_loss",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.loss",
+        "description": "svgdreamer.painter.loss",
+        "peekOfCode": "def channel_saturation_penalty_loss(x: torch.Tensor):\n    assert x.shape[1] == 3\n    r_channel = x[:, 0, :, :]\n    g_channel = x[:, 1, :, :]\n    b_channel = x[:, 2, :, :]\n    channel_accumulate = torch.pow(r_channel, 2) + torch.pow(g_channel, 2) + torch.pow(b_channel, 2)\n    return channel_accumulate.mean() / 3\ndef area(a, b, c):\n    return (c[1] - a[1]) * (b[0] - a[0]) - (b[1] - a[1]) * (c[0] - a[0])\ndef triangle_area(A, B, C):",
+        "detail": "svgdreamer.painter.loss",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.loss",
+        "description": "svgdreamer.painter.loss",
+        "peekOfCode": "def area(a, b, c):\n    return (c[1] - a[1]) * (b[0] - a[0]) - (b[1] - a[1]) * (c[0] - a[0])\ndef triangle_area(A, B, C):\n    out = (C - A).flip([-1]) * (B - A)\n    out = out[..., 1] - out[..., 0]\n    return out\ndef compute_sine_theta(s1, s2):  # s1 and s2 aret two segments to be uswed\n    # s1, s2 (2, 2)\n    v1 = s1[1, :] - s1[0, :]\n    v2 = s2[1, :] - s2[0, :]",
+        "detail": "svgdreamer.painter.loss",
+        "documentation": {}
+    },
+    {
+        "label": "triangle_area",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.loss",
+        "description": "svgdreamer.painter.loss",
+        "peekOfCode": "def triangle_area(A, B, C):\n    out = (C - A).flip([-1]) * (B - A)\n    out = out[..., 1] - out[..., 0]\n    return out\ndef compute_sine_theta(s1, s2):  # s1 and s2 aret two segments to be uswed\n    # s1, s2 (2, 2)\n    v1 = s1[1, :] - s1[0, :]\n    v2 = s2[1, :] - s2[0, :]\n    # print(v1, v2)\n    sine_theta = (v1[0] * v2[1] - v1[1] * v2[0]) / (torch.norm(v1) * torch.norm(v2))",
+        "detail": "svgdreamer.painter.loss",
+        "documentation": {}
+    },
+    {
+        "label": "compute_sine_theta",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.loss",
+        "description": "svgdreamer.painter.loss",
+        "peekOfCode": "def compute_sine_theta(s1, s2):  # s1 and s2 aret two segments to be uswed\n    # s1, s2 (2, 2)\n    v1 = s1[1, :] - s1[0, :]\n    v2 = s2[1, :] - s2[0, :]\n    # print(v1, v2)\n    sine_theta = (v1[0] * v2[1] - v1[1] * v2[0]) / (torch.norm(v1) * torch.norm(v2))\n    return sine_theta\ndef xing_loss_fn(x_list, scale=1e-3):  # x[npoints, 2]\n    loss = 0.\n    # print(f\"points_len: {len(x_list)}\")",
+        "detail": "svgdreamer.painter.loss",
+        "documentation": {}
+    },
+    {
+        "label": "xing_loss_fn",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.loss",
+        "description": "svgdreamer.painter.loss",
+        "peekOfCode": "def xing_loss_fn(x_list, scale=1e-3):  # x[npoints, 2]\n    loss = 0.\n    # print(f\"points_len: {len(x_list)}\")\n    for x in x_list:\n        # print(f\"x: {x}\")\n        seg_loss = 0.\n        N = x.size()[0]\n        assert N % 3 == 0, f'The segment number ({N}) is not correct!'\n        x = torch.cat([x, x[0, :].unsqueeze(0)], dim=0)  # (N+1,2)\n        segments = torch.cat([x[:-1, :].unsqueeze(1), x[1:, :].unsqueeze(1)], dim=1)  # (N, start/end, 2)",
+        "detail": "svgdreamer.painter.loss",
+        "documentation": {}
+    },
+    {
+        "label": "Painter",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class Painter(DiffVGState):\n    def __init__(\n            self,\n            diffvg_cfg: omegaconf.DictConfig,\n            style: str,\n            num_segments: int,\n            segment_init: str,\n            radius: int = 20,\n            canvas_size: int = 600,\n            n_grid: int = 32,",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "SparseCoordInit",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class SparseCoordInit:\n    def __init__(self, pred, gt, format='[bs x c x 2D]', quantile_interval=200, nodiff_thres=0.1):\n        if torch.is_tensor(pred):\n            pred = pred.detach().cpu().numpy()\n        if torch.is_tensor(gt):\n            gt = gt.detach().cpu().numpy()\n        if format == '[bs x c x 2D]':\n            self.map = ((pred[0] - gt[0]) ** 2).sum(0)\n            self.reference_gt = copy.deepcopy(np.transpose(gt[0], (1, 2, 0)))\n        elif format == ['[2D x c]']:",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "RandomCoordInit",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class RandomCoordInit:\n    def __init__(self, canvas_width, canvas_height):\n        self.canvas_width, self.canvas_height = canvas_width, canvas_height\n    def __call__(self):\n        w, h = self.canvas_width, self.canvas_height\n        return [np.random.uniform(0, 1) * w, np.random.uniform(0, 1) * h]\nclass NaiveCoordInit:\n    def __init__(self, pred, gt, format='[bs x c x 2D]', replace_sampling=True):\n        if isinstance(pred, torch.Tensor):\n            pred = pred.detach().cpu().numpy()",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "NaiveCoordInit",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class NaiveCoordInit:\n    def __init__(self, pred, gt, format='[bs x c x 2D]', replace_sampling=True):\n        if isinstance(pred, torch.Tensor):\n            pred = pred.detach().cpu().numpy()\n        if isinstance(gt, torch.Tensor):\n            gt = gt.detach().cpu().numpy()\n        if format == '[bs x c x 2D]':\n            self.map = ((pred[0] - gt[0]) ** 2).sum(0)\n        elif format == ['[2D x c]']:\n            self.map = ((pred - gt) ** 2).sum(-1)",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "PainterOptimizer",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class PainterOptimizer:\n    def __init__(self,\n                 renderer: Painter,\n                 style: str,\n                 num_iter: int,\n                 lr_config: omegaconf.DictConfig,\n                 trainable_bg: bool = False):\n        self.renderer = renderer\n        self.num_iter = num_iter\n        self.trainable_bg = trainable_bg",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "LinearDecayWithKeepLRLambda",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class LinearDecayWithKeepLRLambda:\n    \"\"\"apply in SIVE stage\"\"\"\n    def __init__(self, init_lr, keep_ratio, decay_every, decay_ratio):\n        self.init_lr = init_lr\n        self.keep_ratio = keep_ratio\n        self.decay_every = decay_every\n        self.decay_ratio = decay_ratio\n    def __call__(self, n):\n        if n < self.keep_ratio * self.decay_every:\n            return self.init_lr",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "CosineWithWarmupLRLambda",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "class CosineWithWarmupLRLambda:\n    \"\"\"apply in VPSD stage\"\"\"\n    def __init__(self, num_steps, warmup_steps, warmup_start_lr, warmup_end_lr, cosine_end_lr):\n        self.n_steps = num_steps\n        self.n_warmup = warmup_steps\n        self.warmup_start_lr = warmup_start_lr\n        self.warmup_end_lr = warmup_end_lr\n        self.cosine_end_lr = cosine_end_lr\n    def __call__(self, n):\n        if n < self.n_warmup:",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "get_sdf",
+        "kind": 2,
+        "importPath": "svgdreamer.painter.painter_params",
+        "description": "svgdreamer.painter.painter_params",
+        "peekOfCode": "def get_sdf(phi, **kwargs):\n    import skfmm  # local import\n    phi = (phi - 0.5) * 2\n    if (phi.max() <= 0) or (phi.min() >= 0):\n        return np.zeros(phi.shape).astype(np.float32)\n    sd = skfmm.distance(phi, dx=1)\n    flip_negative = kwargs.get('flip_negative', True)\n    if flip_negative:\n        sd = np.abs(sd)\n    truncate = kwargs.get('truncate', 10)",
+        "detail": "svgdreamer.painter.painter_params",
+        "documentation": {}
+    },
+    {
+        "label": "VectorizedParticleSDSPipeline",
+        "kind": 6,
+        "importPath": "svgdreamer.painter.VPSD_pipeline",
+        "description": "svgdreamer.painter.VPSD_pipeline",
+        "peekOfCode": "class VectorizedParticleSDSPipeline(torch.nn.Module):\n    def __init__(self,\n                 model_cfg: DictConfig,\n                 diffuser_cfg: DictConfig,\n                 guidance_cfg: DictConfig,\n                 device: torch.device,\n                 precision: str):\n        super().__init__()\n        self.device = device\n        self.dtype = torch.float16 if precision == 'fp16' else torch.float32",
+        "detail": "svgdreamer.painter.VPSD_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "SVGDreamerPipeline",
+        "kind": 6,
+        "importPath": "svgdreamer.pipelines.SVGDreamer_pipeline",
+        "description": "svgdreamer.pipelines.SVGDreamer_pipeline",
+        "peekOfCode": "class SVGDreamerPipeline(ModelState):\n    def __init__(self, args):\n        # assert\n        assert args.x.style in [\"iconography\", \"pixelart\", \"low-poly\", \"painting\", \"sketch\", \"ink\"]\n        args.skip_sive = True if args.x.style in [\"pixelart\", \"low-poly\"] else args.skip_sive\n        # assert args.x.vpsd.n_particle >= args.x.vpsd.vsd_n_particle\n        if args.x.vpsd.vsd_n_particle > args.x.vpsd.n_particle: args.x.vpsd.vsd_n_particle = args.x.vpsd.n_particle\n        # assert args.x.vpsd.n_particle >= args.x.vpsd.phi_n_particle\n        if args.x.vpsd.phi_n_particle > args.x.vpsd.n_particle: args.x.vpsd.phi_n_particle = args.x.vpsd.n_particle\n        assert args.x.vpsd.n_phi_sample >= 1",
+        "detail": "svgdreamer.pipelines.SVGDreamer_pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "merge_svg_files",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.merge",
+        "description": "svgdreamer.svgtools.merge",
+        "peekOfCode": "def merge_svg_files(\n        svg_path_1: AnyStr,\n        svg_path_2: AnyStr,\n        merge_type: str,\n        output_svg_path: AnyStr,\n        out_size: Tuple[int, int],  # e.g.: (600, 600)\n):\n    is_valid_svg(svg_path_1)\n    is_valid_svg(svg_path_2)\n    # set merge ops",
+        "detail": "svgdreamer.svgtools.merge",
+        "documentation": {}
+    },
+    {
+        "label": "simple_merge",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.merge",
+        "description": "svgdreamer.svgtools.merge",
+        "peekOfCode": "def simple_merge(svg_path1, svg_path2, output_path, out_size):\n    # read svg to paths\n    paths1, attributes1 = svg2paths(svg_path1)\n    paths2, attributes2 = svg2paths(svg_path2)\n    # merge path and attributes\n    paths = paths1 + paths2\n    attributes = attributes1 + attributes2\n    # write merged svg\n    wsvg(paths,\n         attributes=attributes,",
+        "detail": "svgdreamer.svgtools.merge",
+        "documentation": {}
+    },
+    {
+        "label": "merge_svg_by_group",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.merge",
+        "description": "svgdreamer.svgtools.merge",
+        "peekOfCode": "def merge_svg_by_group(\n        svg_path_1: AnyStr,\n        svg_path_2: AnyStr,\n        cp_offset: Tuple[float, float],\n        svg_out: AnyStr,\n        out_size: Tuple[int, int],  # e.g.: (600, 600)\n):\n    # load svg_path_1\n    tree1 = ET.parse(svg_path_1)\n    root1 = tree1.getroot()",
+        "detail": "svgdreamer.svgtools.merge",
+        "documentation": {}
+    },
+    {
+        "label": "merge_svg_by_cp",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.merge",
+        "description": "svgdreamer.svgtools.merge",
+        "peekOfCode": "def merge_svg_by_cp(\n        svg_path_1: AnyStr,\n        svg_path_2: AnyStr,\n        p_offset: float,\n        svg_out: AnyStr,\n        out_size: Tuple[int, int],  # e.g.: (600, 600)\n):\n    # load svg_path_1\n    tree1 = ET.parse(svg_path_1)\n    root1 = tree1.getroot()",
+        "detail": "svgdreamer.svgtools.merge",
+        "documentation": {}
+    },
+    {
+        "label": "merge_two_svgs_edit",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.merge",
+        "description": "svgdreamer.svgtools.merge",
+        "peekOfCode": "def merge_two_svgs_edit(\n        svg_path_1: AnyStr,\n        svg_path_2: AnyStr,\n        def_cfg: omegaconf.DictConfig,\n        p2_offset: Tuple[float, float],\n        svg_out: AnyStr,\n        out_size: Tuple[int, int],  # e.g.: (600, 600)\n):\n    # load svg_path_1\n    tree1 = ET.parse(svg_path_1)",
+        "detail": "svgdreamer.svgtools.merge",
+        "documentation": {}
+    },
+    {
+        "label": "delete_empty_path",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.process",
+        "description": "svgdreamer.svgtools.process",
+        "peekOfCode": "def delete_empty_path(input_svg: str, output_svg: str):\n    is_valid_svg(input_svg)\n    # read svg\n    tree = ET.parse(input_svg)\n    root = tree.getroot()\n    group = ET.Element('g')\n    for i, element in enumerate(root.iter()):\n        element.tag = element.tag.split('}')[-1]\n        if element.tag == 'path':\n            if element.get('d') == 'C  NaN NaN' or element.get('d') == '':",
+        "detail": "svgdreamer.svgtools.process",
+        "documentation": {}
+    },
+    {
+        "label": "add_clipPath2def",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.process",
+        "description": "svgdreamer.svgtools.process",
+        "peekOfCode": "def add_clipPath2def(mounted_node: ET.Element, tag_name: str, attrs: omegaconf.DictConfig):\n    # add defs node\n    defs = ET.SubElement(mounted_node, 'defs')  # parent=mounted_node, tag='defs'\n    if tag_name == 'none':\n        return None\n    # add clipPath node\n    id = 'def_clip'\n    _circleClip = ET.SubElement(defs, 'clipPath', id='def_clip')  # parent=defs, tag='clipPath'\n    # add ops\n    if tag_name == 'circle_clip':",
+        "detail": "svgdreamer.svgtools.process",
+        "documentation": {}
+    },
+    {
+        "label": "add_def_tag",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.process",
+        "description": "svgdreamer.svgtools.process",
+        "peekOfCode": "def add_def_tag(\n        svg_path: str,\n        def_tag_plan: str,\n        out_size: Tuple[int, int],  # e.g.: (600, 600)\n):\n    is_valid_svg(svg_path)\n    width, height = out_size[0], out_size[1]\n    # set def tag\n    if def_tag_plan == 'circle_clip':\n        def_cfg = omegaconf.DictConfig({",
+        "detail": "svgdreamer.svgtools.process",
+        "documentation": {}
+    },
+    {
+        "label": "circle_tag",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.shape",
+        "description": "svgdreamer.svgtools.shape",
+        "peekOfCode": "def circle_tag(cx: float, cy: float, r: float, transform: str = None):\n    attrib = {\n        'cx': f'{cx}', 'cy': f'{cy}', 'r': f'{r}'\n    }\n    if transform is not None:\n        attrib['transform'] = transform\n    _circle = ET.Element('circle', attrib)  # tag, attrib\n    return _circle\ndef rect_tag(\n        x: float, y: float, rx: float, ry: float,",
+        "detail": "svgdreamer.svgtools.shape",
+        "documentation": {}
+    },
+    {
+        "label": "rect_tag",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.shape",
+        "description": "svgdreamer.svgtools.shape",
+        "peekOfCode": "def rect_tag(\n        x: float, y: float, rx: float, ry: float,\n        width: float = 600, height: float = 600,\n        transform: str = None\n):\n    attrib = {\n        'x': f'{x}', 'y': f'{y}', 'rx': f'{rx}', 'ry': f'{ry}',\n        'width': f'{width}', 'height': f'{height}'\n    }\n    if transform is not None:",
+        "detail": "svgdreamer.svgtools.shape",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_svg",
+        "kind": 2,
+        "importPath": "svgdreamer.svgtools.type",
+        "description": "svgdreamer.svgtools.type",
+        "peekOfCode": "def is_valid_svg(file_path: AnyStr) -> bool:\n    try:\n        tree = ET.parse(file_path)\n        root = tree.getroot()\n        if root.tag.endswith('svg') and 'xmlns' in root.attrib:\n            return True\n        else:\n            return False\n    except ET.ParseError:\n        return False",
+        "detail": "svgdreamer.svgtools.type",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionControl",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class AttentionControl(ABC):\n    def __init__(self):\n        self.cur_step = 0\n        self.num_att_layers = -1\n        self.cur_att_layer = 0\n    def step_callback(self, x_t):\n        # can be used to return a modified attention map\n        return x_t\n    def between_steps(self):\n        return",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyControl",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class EmptyControl(AttentionControl):\n    def forward(self, attn, is_cross: bool, place_in_unet: str):\n        return attn\nclass AttentionStore(AttentionControl):\n    def __init__(self):\n        super(AttentionStore, self).__init__()\n        self.step_store = self.get_empty_store()\n        self.attention_store = {}\n    @staticmethod\n    def get_empty_store():",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionStore",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class AttentionStore(AttentionControl):\n    def __init__(self):\n        super(AttentionStore, self).__init__()\n        self.step_store = self.get_empty_store()\n        self.attention_store = {}\n    @staticmethod\n    def get_empty_store():\n        return {\"down_cross\": [], \"mid_cross\": [], \"up_cross\": [],\n                \"down_self\": [], \"mid_self\": [], \"up_self\": []}\n    def forward(self, attn, is_cross: bool, place_in_unet: str):",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "LocalBlend",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class LocalBlend:\n    def __init__(self,\n                 prompts: List[str],\n                 words: [List[List[str]]],\n                 tokenizer,\n                 device,\n                 threshold=.3,\n                 max_num_words=77):\n        self.max_num_words = max_num_words\n        alpha_layers = torch.zeros(len(prompts), 1, 1, 1, 1, self.max_num_words)",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionControlEdit",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class AttentionControlEdit(AttentionStore, ABC):\n    def __init__(self,\n                 prompts,\n                 num_steps: int,\n                 cross_replace_steps: Union[float, Tuple[float, float], Dict[str, Tuple[float, float]]],\n                 self_replace_steps: Union[float, Tuple[float, float]],\n                 local_blend: Optional[LocalBlend],\n                 tokenizer,\n                 device):\n        super(AttentionControlEdit, self).__init__()",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionReplace",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class AttentionReplace(AttentionControlEdit):\n    def __init__(self,\n                 prompts,\n                 num_steps: int,\n                 cross_replace_steps: float,\n                 self_replace_steps: float,\n                 local_blend: Optional[LocalBlend] = None,\n                 tokenizer=None,\n                 device=None):\n        super(AttentionReplace, self).__init__(prompts, num_steps, cross_replace_steps, self_replace_steps,",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionRefine",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class AttentionRefine(AttentionControlEdit):\n    def __init__(self,\n                 prompts,\n                 num_steps: int,\n                 cross_replace_steps: float,\n                 self_replace_steps: float,\n                 local_blend: Optional[LocalBlend] = None,\n                 tokenizer=None,\n                 device=None):\n        super(AttentionRefine, self).__init__(prompts, num_steps, cross_replace_steps, self_replace_steps,",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "AttentionReweight",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "class AttentionReweight(AttentionControlEdit):\n    def __init__(self,\n                 prompts,\n                 num_steps: int,\n                 cross_replace_steps: float,\n                 self_replace_steps: float,\n                 equalizer,\n                 local_blend: Optional[LocalBlend] = None,\n                 controller: Optional[AttentionControlEdit] = None,\n                 tokenizer=None,",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "get_equalizer",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.attn_control",
+        "description": "svgdreamer.token2attn.attn_control",
+        "peekOfCode": "def get_equalizer(tokenizer, text: str,\n                  word_select: Union[int, Tuple[int, ...]],\n                  values: Union[List[float], Tuple[float, ...]]):\n    if type(word_select) is int or type(word_select) is str:\n        word_select = (word_select,)\n    equalizer = torch.ones(len(values), 77)\n    values = torch.tensor(values, dtype=torch.float32)\n    for word in word_select:\n        inds = get_word_inds(text, word, tokenizer)\n        equalizer[:, inds] = values",
+        "detail": "svgdreamer.token2attn.attn_control",
+        "documentation": {}
+    },
+    {
+        "label": "text_under_image",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "peekOfCode": "def text_under_image(image: np.ndarray,\n                     text: str,\n                     text_color: Tuple[int, int, int] = (0, 0, 0)) -> np.ndarray:\n    h, w, c = image.shape\n    offset = int(h * .2)\n    img = np.ones((h + offset, w, c), dtype=np.uint8) * 255\n    font = cv2.FONT_HERSHEY_SIMPLEX\n    img[:h] = image\n    textsize = cv2.getTextSize(text, font, 1, 2)[0]\n    text_x, text_y = (w - textsize[0]) // 2, h + offset - textsize[1] // 2",
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "view_images",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "peekOfCode": "def view_images(\n        images: Union[np.ndarray, List[np.ndarray]],\n        num_rows: int = 1,\n        offset_ratio: float = 0.02,\n        save_image: bool = False,\n        fp: Union[Text, pathlib.Path, BinaryIO] = None,\n) -> np.ndarray:\n    if save_image:\n        assert fp is not None\n    if isinstance(images, list):",
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "update_alpha_time_word",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "peekOfCode": "def update_alpha_time_word(alpha,\n                           bounds: Union[float, Tuple[float, float]],\n                           prompt_ind: int,\n                           word_inds: Optional[torch.Tensor] = None):\n    if isinstance(bounds, float):\n        bounds = 0, bounds\n    start, end = int(bounds[0] * alpha.shape[0]), int(bounds[1] * alpha.shape[0])\n    if word_inds is None:\n        word_inds = torch.arange(alpha.shape[2])\n    alpha[: start, prompt_ind, word_inds] = 0",
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_time_words_attention_alpha",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.ptp_utils",
+        "description": "svgdreamer.token2attn.ptp_utils",
+        "peekOfCode": "def get_time_words_attention_alpha(prompts, num_steps,\n                                   cross_replace_steps: Union[float, Dict[str, Tuple[float, float]]],\n                                   tokenizer,\n                                   max_num_words=77):\n    if type(cross_replace_steps) is not dict:\n        cross_replace_steps = {\"default_\": cross_replace_steps}\n    if \"default_\" not in cross_replace_steps:\n        cross_replace_steps[\"default_\"] = (0., 1.)\n    alpha_time_words = torch.zeros(num_steps + 1, len(prompts) - 1, max_num_words)\n    for i in range(len(prompts) - 1):",
+        "detail": "svgdreamer.token2attn.ptp_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreParams",
+        "kind": 6,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "class ScoreParams:\n    def __init__(self, gap, match, mismatch):\n        self.gap = gap\n        self.match = match\n        self.mismatch = mismatch\n    def mis_match_char(self, x, y):\n        if x != y:\n            return self.mismatch\n        else:\n            return self.match",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_matrix",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_matrix(size_x, size_y, gap):\n    matrix = []\n    for i in range(len(size_x) + 1):\n        sub_matrix = []\n        for j in range(len(size_y) + 1):\n            sub_matrix.append(0)\n        matrix.append(sub_matrix)\n    for j in range(1, len(size_y) + 1):\n        matrix[0][j] = j * gap\n    for i in range(1, len(size_x) + 1):",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_matrix",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_matrix(size_x, size_y, gap):\n    matrix = np.zeros((size_x + 1, size_y + 1), dtype=np.int32)\n    matrix[0, 1:] = (np.arange(size_y) + 1) * gap\n    matrix[1:, 0] = (np.arange(size_x) + 1) * gap\n    return matrix\ndef get_traceback_matrix(size_x, size_y):\n    matrix = np.zeros((size_x + 1, size_y + 1), dtype=np.int32)\n    matrix[0, 1:] = 1\n    matrix[1:, 0] = 2\n    matrix[0, 0] = 4",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_traceback_matrix",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_traceback_matrix(size_x, size_y):\n    matrix = np.zeros((size_x + 1, size_y + 1), dtype=np.int32)\n    matrix[0, 1:] = 1\n    matrix[1:, 0] = 2\n    matrix[0, 0] = 4\n    return matrix\ndef global_align(x, y, score):\n    matrix = get_matrix(len(x), len(y), score.gap)\n    trace_back = get_traceback_matrix(len(x), len(y))\n    for i in range(1, len(x) + 1):",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "global_align",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def global_align(x, y, score):\n    matrix = get_matrix(len(x), len(y), score.gap)\n    trace_back = get_traceback_matrix(len(x), len(y))\n    for i in range(1, len(x) + 1):\n        for j in range(1, len(y) + 1):\n            left = matrix[i, j - 1] + score.gap\n            up = matrix[i - 1, j] + score.gap\n            diag = matrix[i - 1, j - 1] + score.mis_match_char(x[i - 1], y[j - 1])\n            matrix[i, j] = max(left, up, diag)\n            if matrix[i, j] == left:",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_aligned_sequences",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_aligned_sequences(x, y, trace_back):\n    x_seq = []\n    y_seq = []\n    i = len(x)\n    j = len(y)\n    mapper_y_to_x = []\n    while i > 0 or j > 0:\n        if trace_back[i, j] == 3:\n            x_seq.append(x[i - 1])\n            y_seq.append(y[j - 1])",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_mapper",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_mapper(x: str, y: str, tokenizer, max_len=77):\n    x_seq = tokenizer.encode(x)\n    y_seq = tokenizer.encode(y)\n    score = ScoreParams(0, 1, -1)\n    matrix, trace_back = global_align(x_seq, y_seq, score)\n    mapper_base = get_aligned_sequences(x_seq, y_seq, trace_back)[-1]\n    alphas = torch.ones(max_len)\n    alphas[: mapper_base.shape[0]] = mapper_base[:, 1].ne(-1).float()\n    mapper = torch.zeros(max_len, dtype=torch.int64)\n    mapper[:mapper_base.shape[0]] = mapper_base[:, 1]",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_refinement_mapper",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_refinement_mapper(prompts, tokenizer, max_len=77):\n    x_seq = prompts[0]\n    mappers, alphas = [], []\n    for i in range(1, len(prompts)):\n        mapper, alpha = get_mapper(x_seq, prompts[i], tokenizer, max_len)\n        mappers.append(mapper)\n        alphas.append(alpha)\n    return torch.stack(mappers), torch.stack(alphas)\ndef get_word_inds(text: str, word_place: int, tokenizer):\n    split_text = text.split(\" \")",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_word_inds",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_word_inds(text: str, word_place: int, tokenizer):\n    split_text = text.split(\" \")\n    if type(word_place) is str:\n        word_place = [i for i, word in enumerate(split_text) if word_place == word]\n    elif type(word_place) is int:\n        word_place = [word_place]\n    out = []\n    if len(word_place) > 0:\n        words_encode = [tokenizer.decode([item]).strip(\"#\") for item in tokenizer.encode(text)][1:-1]\n        cur_len, ptr = 0, 0",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_replacement_mapper_",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_replacement_mapper_(x: str, y: str, tokenizer, max_len=77):\n    words_x = x.split(' ')\n    words_y = y.split(' ')\n    if len(words_x) != len(words_y):\n        raise ValueError(f\"attention replacement edit can only be applied on prompts with the same length\"\n                         f\" but prompt A has {len(words_x)} words and prompt B has {len(words_y)} words.\")\n    inds_replace = [i for i in range(len(words_y)) if words_y[i] != words_x[i]]\n    inds_source = [get_word_inds(x, i, tokenizer) for i in inds_replace]\n    inds_target = [get_word_inds(y, i, tokenizer) for i in inds_replace]\n    mapper = np.zeros((max_len, max_len))",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "get_replacement_mapper",
+        "kind": 2,
+        "importPath": "svgdreamer.token2attn.seq_aligner",
+        "description": "svgdreamer.token2attn.seq_aligner",
+        "peekOfCode": "def get_replacement_mapper(prompts, tokenizer, max_len=77):\n    x_seq = prompts[0]\n    mappers = []\n    for i in range(1, len(prompts)):\n        mapper = get_replacement_mapper_(x_seq, prompts[i], tokenizer, max_len)\n        mappers.append(mapper)\n    return torch.stack(mappers)",
+        "detail": "svgdreamer.token2attn.seq_aligner",
+        "documentation": {}
+    },
+    {
+        "label": "init_tensor_with_rgb",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.color_attrs",
+        "description": "svgdreamer.utils.color_attrs",
+        "peekOfCode": "def init_tensor_with_rgb(\n        rgb: Tuple[float, float, float],\n        b: int,\n        w: int,\n        h: int,\n        norm: bool = False\n):\n    \"\"\"\n    Initializes a PyTorch tensor with the specified RGB values. The tensor has shape (b, 3, w, h).\n    Args:",
+        "detail": "svgdreamer.utils.color_attrs",
+        "documentation": {}
+    },
+    {
+        "label": "init_tensor_with_color",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.color_attrs",
+        "description": "svgdreamer.utils.color_attrs",
+        "peekOfCode": "def init_tensor_with_color(\n        color: str,\n        b: int,\n        w: int,\n        h: int,\n        norm: bool = True\n):\n    \"\"\"\n    Initializes a PyTorch tensor with the specified RGB values. The tensor has shape (b, 3, w, h).\n    Args:",
+        "detail": "svgdreamer.utils.color_attrs",
+        "documentation": {}
+    },
+    {
+        "label": "hex_to_rgb",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.color_attrs",
+        "description": "svgdreamer.utils.color_attrs",
+        "peekOfCode": "def hex_to_rgb(hex_code):\n    r = int(hex_code[0:2], 16)\n    g = int(hex_code[2:4], 16)\n    b = int(hex_code[4:6], 16)\n    return (r, g, b)\ndef get_rgb_from_color(color: str):\n    # get the corresponding RGB value based on the color\n    if color.startswith('#'):\n        color = color.split('#')[1]\n        rgb = hex_to_rgb(color)",
+        "detail": "svgdreamer.utils.color_attrs",
+        "documentation": {}
+    },
+    {
+        "label": "get_rgb_from_color",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.color_attrs",
+        "description": "svgdreamer.utils.color_attrs",
+        "peekOfCode": "def get_rgb_from_color(color: str):\n    # get the corresponding RGB value based on the color\n    if color.startswith('#'):\n        color = color.split('#')[1]\n        rgb = hex_to_rgb(color)\n        rgb = [c / 255. for c in rgb]  # to [0, 1]\n    elif color in colors.cnames:\n        rgb = colors.to_rgb(color)\n    else:\n        rgb = color",
+        "detail": "svgdreamer.utils.color_attrs",
+        "documentation": {}
+    },
+    {
+        "label": "apply_lama_inpaint",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.inpaint_util",
+        "description": "svgdreamer.utils.inpaint_util",
+        "peekOfCode": "def apply_lama_inpaint(predict_config, device):\n    # local import\n    from lama.saicinpainting.evaluation.utils import move_to_device\n    from lama.saicinpainting.evaluation.refinement import refine_predict\n    from lama.saicinpainting.training.data.datasets import make_default_val_dataset\n    from lama.saicinpainting.training.trainers import load_checkpoint\n    try:\n        train_config_path = pathlib.Path(predict_config.model.path) / 'config.yaml'\n        train_config = OmegaConf.load(train_config_path)\n        train_config.training_model.predict_only = True",
+        "detail": "svgdreamer.utils.inpaint_util",
+        "documentation": {}
+    },
+    {
+        "label": "render_batch_wrap",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.misc",
+        "description": "svgdreamer.utils.misc",
+        "peekOfCode": "def render_batch_wrap(cfg: omegaconf.DictConfig,\n                      seed_range: List,\n                      pipeline: Any,\n                      **pipe_args):\n    start_time = datetime.now()\n    for idx, seed in enumerate(seed_range):\n        cfg.seed = seed  # update seed\n        print(f\"\\n-> [{idx}/{len(seed_range)}], \"\n              f\"current seed: {seed}, \"\n              f\"current time: {datetime.now() - start_time}\\n\")",
+        "detail": "svgdreamer.utils.misc",
+        "documentation": {}
+    },
+    {
+        "label": "get_seed_range",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.misc",
+        "description": "svgdreamer.utils.misc",
+        "peekOfCode": "def get_seed_range(srange: AnyList):\n    # random sampling without specifying a range\n    start_, end_ = 1, 1000000\n    if srange is not None:  # specify range sequential sampling\n        seed_range_ = list(srange)\n        assert len(seed_range_) == 2 and int(seed_range_[1]) > int(seed_range_[0])\n        start_, end_ = int(seed_range_[0]), int(seed_range_[1])\n        seed_range = [i for i in range(start_, end_)]\n    else:\n        # a list of lengths 1000 sampled from the range start_ to end_ (e.g.: [1, 1000000])",
+        "detail": "svgdreamer.utils.misc",
+        "documentation": {}
+    },
+    {
+        "label": "mkdir",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.misc",
+        "description": "svgdreamer.utils.misc",
+        "peekOfCode": "def mkdir(dirs: List[pathlib.Path]):\n    for _dir in dirs:\n        _dir.mkdir(parents=True, exist_ok=True)",
+        "detail": "svgdreamer.utils.misc",
+        "documentation": {}
+    },
+    {
+        "label": "AnyPath",
+        "kind": 5,
+        "importPath": "svgdreamer.utils.misc",
+        "description": "svgdreamer.utils.misc",
+        "peekOfCode": "AnyPath = Union[str, pathlib.Path, 'os.PathLike']\nAnyList = Union[omegaconf.ListConfig, List]\nAnyDict = Union[omegaconf.DictConfig, Dict]\ndef render_batch_wrap(cfg: omegaconf.DictConfig,\n                      seed_range: List,\n                      pipeline: Any,\n                      **pipe_args):\n    start_time = datetime.now()\n    for idx, seed in enumerate(seed_range):\n        cfg.seed = seed  # update seed",
+        "detail": "svgdreamer.utils.misc",
+        "documentation": {}
+    },
+    {
+        "label": "AnyList",
+        "kind": 5,
+        "importPath": "svgdreamer.utils.misc",
+        "description": "svgdreamer.utils.misc",
+        "peekOfCode": "AnyList = Union[omegaconf.ListConfig, List]\nAnyDict = Union[omegaconf.DictConfig, Dict]\ndef render_batch_wrap(cfg: omegaconf.DictConfig,\n                      seed_range: List,\n                      pipeline: Any,\n                      **pipe_args):\n    start_time = datetime.now()\n    for idx, seed in enumerate(seed_range):\n        cfg.seed = seed  # update seed\n        print(f\"\\n-> [{idx}/{len(seed_range)}], \"",
+        "detail": "svgdreamer.utils.misc",
+        "documentation": {}
+    },
+    {
+        "label": "AnyDict",
+        "kind": 5,
+        "importPath": "svgdreamer.utils.misc",
+        "description": "svgdreamer.utils.misc",
+        "peekOfCode": "AnyDict = Union[omegaconf.DictConfig, Dict]\ndef render_batch_wrap(cfg: omegaconf.DictConfig,\n                      seed_range: List,\n                      pipeline: Any,\n                      **pipe_args):\n    start_time = datetime.now()\n    for idx, seed in enumerate(seed_range):\n        cfg.seed = seed  # update seed\n        print(f\"\\n-> [{idx}/{len(seed_range)}], \"\n              f\"current seed: {seed}, \"",
+        "detail": "svgdreamer.utils.misc",
+        "documentation": {}
+    },
+    {
+        "label": "save_image",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "peekOfCode": "def save_image(image_array: np.ndarray, fname: AnyPath):\n    image = np.transpose(image_array, (1, 2, 0)).astype(np.uint8)\n    pil_image = Image.fromarray(image)\n    pil_image.save(fname)\ndef plot_attn(attn: np.ndarray,\n              threshold_map: np.ndarray,\n              inputs: torch.Tensor,\n              inds: np.ndarray,\n              output_path: AnyPath):\n    # currently supports one image (and not a batch)",
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_attn",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "peekOfCode": "def plot_attn(attn: np.ndarray,\n              threshold_map: np.ndarray,\n              inputs: torch.Tensor,\n              inds: np.ndarray,\n              output_path: AnyPath):\n    # currently supports one image (and not a batch)\n    plt.figure(figsize=(10, 5))\n    plt.subplot(1, 3, 1)\n    main_im = make_grid(inputs, normalize=True, pad_value=2)\n    main_im = np.transpose(main_im.cpu().numpy(), (1, 2, 0))",
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_couple",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "peekOfCode": "def plot_couple(input_1: torch.Tensor,\n                input_2: torch.Tensor,\n                step: int,\n                output_dir: str,\n                fname: AnyPath,  # file name\n                prompt: str = '',  # text prompt as image tile\n                pad_value: float = 0,\n                dpi: int = 300):\n    if input_1.shape != input_2.shape:\n        raise ValueError(\"inputs and outputs must have the same dimensions\")",
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_img",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "peekOfCode": "def plot_img(inputs: torch.Tensor,\n             output_dir: AnyStr,\n             fname: AnyPath,  # file name\n             pad_value: float = 0):\n    assert torch.is_tensor(inputs), f\"The input must be tensor type, but got {type(inputs)}\"\n    grid = make_grid(inputs, normalize=True, pad_value=pad_value)\n    ndarr = grid.mul(255).add_(0.5).clamp_(0, 255).permute(1, 2, 0).to(\"cpu\", torch.uint8).numpy()\n    plt.imshow(ndarr)\n    plt.axis(\"off\")\n    plt.tight_layout()",
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "plot_img_title",
+        "kind": 2,
+        "importPath": "svgdreamer.utils.plot",
+        "description": "svgdreamer.utils.plot",
+        "peekOfCode": "def plot_img_title(inputs: torch.Tensor,\n                   title: str,\n                   output_dir: AnyStr,\n                   fname: AnyPath,  # file name\n                   pad_value: float = 0,\n                   dpi: int = 500):\n    assert torch.is_tensor(inputs), f\"The input must be tensor type, but got {type(inputs)}\"\n    grid = make_grid(inputs, normalize=True, pad_value=pad_value)\n    ndarr = grid.mul(255).add_(0.5).clamp_(0, 255).permute(1, 2, 0).to(\"cpu\", torch.uint8).numpy()\n    plt.imshow(ndarr)",
+        "detail": "svgdreamer.utils.plot",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "svgdreamer",
+        "description": "svgdreamer",
+        "peekOfCode": "def main(cfg: omegaconf.DictConfig):\n    \"\"\"\n    The project configuration is stored in './conf/config.yaml'\n    And style configurations are stored in './conf/x/iconographic.yaml'\n    \"\"\"\n    # set seed\n    set_seed(cfg.seed)\n    seed_range = get_seed_range(cfg.srange) if cfg.multirun else None\n    # render function\n    render_batch_fn = partial(render_batch_wrap, cfg=cfg, seed_range=seed_range)",
+        "detail": "svgdreamer",
+        "documentation": {}
+    }
+]
